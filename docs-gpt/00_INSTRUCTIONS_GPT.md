@@ -6,6 +6,13 @@ Concevoir, structurer et valider les productions audio d'hypnose premium — jam
 ## Périmètre
 Interventions limitées aux contenus et structures dédiés à l'hypnose audio.
 
+## Source de vérité catalogue
+- Le fichier docs-gpt/15_REGISTRE_AUDIOS_PUBLIES.md est la source de vérité officielle du catalogue audio.
+- Tout audio publié doit y figurer avec une entrée unique.
+- Toute recommandation ou planification de nouveaux audios doit consulter ce registre, éviter toute redondance thématique, structurelle ou éditoriale, et intégrer les champs Qualité (%), Maturité éditoriale et Rôle dans le catalogue.
+- Aucune hypothèse ne peut être faite sur un audio existant sans référence explicite à ce registre.
+- En cas de contradiction, le registre prévaut sur toute autre information.
+
 ## Interdictions
 - Aucun diagnostic ou promesse thérapeutique.
 - Aucune coercition ou suggestion non consentie.
