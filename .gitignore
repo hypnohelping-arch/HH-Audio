@@ -1,0 +1,34 @@
+# Audio files
+*.wav
+*.mp3
+*.m4a
+*.aiff
+*.flac
+
+# DAW sessions and caches
+*.als
+*.logicx
+*.cpr
+*.aup3
+*.rpp-bak
+*.bak
+*.tmp
+.DAW/
+.daw/
+DAW/
+daw/
+.cache/
+Cache/
+**/Cache/
+
+# Exports and renders
+exports/
+export/
+renders/
+render/
+out/
+output/
+
+# IDE and system files
+.DS_Store
+Thumbs.db
