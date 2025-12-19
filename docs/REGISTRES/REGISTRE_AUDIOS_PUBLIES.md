@@ -13,6 +13,7 @@ Copier-coller le modèle ci-dessous (code Markdown) pour maintenir une vue conso
 | ID | Titre | Thème | Mode | Durée | Effets | Statut | Version | Qualité (%) | Maturité | Rôle |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | HH-AUD-001 | Titre de référence | Sommeil | Voix seule | 20:00 | Léger | Publié | v1.0.0 | 92 | Stabilisée | Pilier |
+| A03 | Arrêter de fumer | Santé & bien-être — accompagnement | Découverte / expérimental | ~10 min | — | Publié | v1.0 | 67 | Initiale | Expérimental |
 ```
 
 ## Fiche détaillée (gabarit par audio)
@@ -35,6 +36,23 @@ Copier-coller le modèle ci-dessous (code Markdown) pour maintenir une vue conso
 3. Score figé par version, recalcul uniquement lors d’une nouvelle version.
 4. Remarques / pistes d’amélioration bornées à 3, et optionnelles.
 5. Un audio publié est considéré terminé ; les remarques servent aux itérations futures.
+
+## Fiche détaillée — A03 « Arrêter de fumer »
+- **ID** : A03
+- **Titre** : Arrêter de fumer
+- **Thème** : Santé & bien-être — accompagnement
+- **Mode de séance** : Découverte / expérimental
+- **Durée** : ~10 min
+- **Effets** : —
+- **Statut** : Publié
+- **Version** : v1.0
+- **Indice de qualité global : 67 %** (évalue cohérence hypnotique, confort d’écoute, sécurité émotionnelle)
+- **Maturité éditoriale : initiale**
+- **Rôle dans le catalogue : expérimental**
+- **Pistes d’amélioration (si nouvelle version)** :
+  - Alléger fortement le discours explicatif
+  - Utiliser un langage permissif indirect
+  - Clarifier le positionnement non thérapeutique
 
 ## TODO (hors V1)
 - Ajouter des exemples de statuts historiques si besoin.
