@@ -14,6 +14,7 @@ Copier-coller le modèle ci-dessous (code Markdown) pour maintenir une vue conso
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | HH-AUD-001 | Titre de référence | Sommeil | Voix seule | 20:00 | Léger | Publié | v1.0.0 | 92 | Stabilisée | Pilier |
 | A03 | Arrêter de fumer | Santé & bien-être — accompagnement | Découverte / expérimental | ~10 min | — | Publié | v1.0 | 67 | Initiale | Expérimental |
+| A04 | Réduction de la douleur | Santé & bien-être — accompagnement | Découverte / expérimental | ~10 min | — | Publié (avec cadrage) | v1.0 | 72 | Initiale | Expérimental |
 ```
 
 ## Fiche détaillée (gabarit par audio)
@@ -53,6 +54,23 @@ Copier-coller le modèle ci-dessous (code Markdown) pour maintenir une vue conso
   - Alléger fortement le discours explicatif
   - Utiliser un langage permissif indirect
   - Clarifier le positionnement non thérapeutique
+
+## Fiche détaillée — A04 « Réduction de la douleur »
+- **ID** : A04
+- **Titre** : Réduction de la douleur
+- **Thème** : Santé & bien-être — accompagnement
+- **Mode de séance** : Découverte / expérimental
+- **Durée** : ~10 min
+- **Effets** : —
+- **Statut** : Publié (avec cadrage)
+- **Version** : v1.0
+- **Indice de qualité global : 72 %** (évalue cohérence hypnotique, confort d’écoute, sécurité émotionnelle)
+- **Maturité éditoriale : initiale**
+- **Rôle dans le catalogue : expérimental**
+- **Pistes d’amélioration (si nouvelle version)** :
+  - Clarifier le cadre non thérapeutique
+  - Rendre la focalisation sur la douleur optionnelle
+  - Retirer toute référence à des fréquences thérapeutiques
 
 ## TODO (hors V1)
 - Ajouter des exemples de statuts historiques si besoin.
