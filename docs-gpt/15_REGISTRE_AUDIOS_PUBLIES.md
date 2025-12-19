@@ -15,6 +15,7 @@ Copier-coller le modèle ci-dessous (code Markdown) pour maintenir une vue conso
 | HH-AUD-001 | Titre de référence | Sommeil | Voix seule | 20:00 | Léger | Publié | v1.0.0 | 92 | Stabilisée | Pilier |
 | A03 | Arrêter de fumer | Santé & bien-être — accompagnement | Découverte / expérimental | ~10 min | — | Publié | v1.0 | 67 | Initiale | Expérimental |
 | A04 | Réduction de la douleur | Santé & bien-être — accompagnement | Découverte / expérimental | ~10 min | — | Publié (avec cadrage) | v1.0 | 72 | Initiale | Expérimental |
+| A05 | Gestion du poids | Santé & bien-être — accompagnement | Découverte / expérimental | ~16 min | — | Publié (avec cadrage) | v1.0 | 61 | Initiale | Expérimental |
 ```
 
 ## Fiche détaillée (gabarit par audio)
@@ -71,6 +72,23 @@ Copier-coller le modèle ci-dessous (code Markdown) pour maintenir une vue conso
   - Clarifier le cadre non thérapeutique
   - Rendre la focalisation sur la douleur optionnelle
   - Retirer toute référence à des fréquences thérapeutiques
+
+## Fiche détaillée — A05 « Gestion du poids »
+- **ID** : A05
+- **Titre** : Gestion du poids
+- **Thème** : Santé & bien-être — accompagnement
+- **Mode de séance** : Découverte / expérimental
+- **Durée** : ~16 min
+- **Effets** : —
+- **Statut** : Publié (avec cadrage)
+- **Version** : v1.0
+- **Indice de qualité global : 61 %** (évalue cohérence hypnotique, confort d’écoute, sécurité émotionnelle)
+- **Maturité éditoriale : initiale**
+- **Rôle dans le catalogue : expérimental**
+- **Pistes d’amélioration (si nouvelle version)** :
+  - Supprimer les promesses explicites de résultat
+  - Utiliser un langage permissif indirect
+  - Retirer toute référence consciente aux fréquences thérapeutiques
 
 ## TODO (hors V1)
 - Ajouter des exemples de statuts historiques si besoin.
