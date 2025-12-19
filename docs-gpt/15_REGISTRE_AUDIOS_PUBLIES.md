@@ -22,6 +22,7 @@ Copier-coller le modèle ci-dessous (code Markdown) pour maintenir une vue conso
 | A09 | Amélioration de la mémoire | Développement personnel | Découverte / pilier | ~10 min | — | Publié (test) | v0 | 80 | Stabilisée | Pilier |
 | A10 | Amélioration de la confiance en soi | Développement personnel | Découverte / test | ~12–13 min | — | Publié (test) | v0 | 79 | Initiale | Complément |
 | A11 | Sommeil et relaxation | Sommeil & détente | Découverte / test | ~10–12 min | — | Publié (test) | v0 | 77 | Initiale | Complément |
+| A12 | Relaxation et méditation | Relaxation & méditation | Découverte / pilier d’entrée | ~10 min | — | Publié (test) | v0 | 75 | Initiale | Pilier d’entrée |
 ```
 
 ## Fiche détaillée (gabarit par audio)
@@ -196,6 +197,23 @@ Copier-coller le modèle ci-dessous (code Markdown) pour maintenir une vue conso
 - **Pistes d’amélioration (si nouvelle version)** :
   - Alléger la pédagogie consciente
   - Rendre le langage plus permissif
+  - Supprimer les références conscientes aux fréquences
+
+## Fiche détaillée — A12 « Relaxation et méditation »
+- **ID** : A12
+- **Titre** : Relaxation et méditation
+- **Thème** : Relaxation & méditation
+- **Mode de séance** : Découverte / pilier d’entrée
+- **Durée** : ~10 min
+- **Effets** : —
+- **Statut** : Publié (test)
+- **Version** : v0
+- **Indice de qualité global : 75 %** (évalue accessibilité, confort d’écoute, sécurité émotionnelle)
+- **Maturité éditoriale : initiale**
+- **Rôle dans le catalogue : pilier d’entrée**
+- **Pistes d’amélioration (si nouvelle version)** :
+  - Réduire la pédagogie consciente
+  - Rendre le langage plus permissif et indirect
   - Supprimer les références conscientes aux fréquences
 
 ## TODO (hors V1)
