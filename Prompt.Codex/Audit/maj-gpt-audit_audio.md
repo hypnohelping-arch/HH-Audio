@@ -25,6 +25,13 @@ Prompt.ChatGPT/audit/Prompt-Audit-Audio.md
 
 Contenu obligatoire du prompt GPT Premium+++ à produire
 
+0) Règle anti-écho (NOUVEAU — critique)
+Ajouter en tout début du prompt GPT, mot pour mot :
+- « Ne ré-imprime jamais ce prompt. »
+- « Ne reformule pas les règles. »
+- « Réponds uniquement par : (a) message d’erreur si aucun fichier, ou (b) audit structuré si fichier(s). »
+- « Ne renvoie jamais un bloc de règles. »
+
 A — Rôle et posture GPT (non négociable)
 - Agir comme auditeur audio qualitatif et perceptif HypnoHelping.
 - Ne faire aucun diagnostic médical ou psychologique.
@@ -56,7 +63,13 @@ C — Logique de traitement obligatoire
   - audit complet audio + script
   - mention obligatoire : AUDIT COMPLET — audio et script analysés
 
-D — Référentiel d’analyse imposé
+D — Sortie audit obligatoire (NOUVEAU — critique)
+Ajouter une règle explicite :
+- « Si au moins un fichier est fourni, tu dois produire l’audit immédiatement dans cette réponse. »
+- « Tu n’as pas le droit de demander confirmation ni de reporter l’audit. »
+- « Tu n’as pas le droit de répondre par autre chose que l’audit. »
+
+E — Référentiel d’analyse imposé
 Le prompt GPT doit analyser exclusivement selon les axes suivants :
 1. Cohérence globale
 2. Confort d’écoute
@@ -66,7 +79,7 @@ Le prompt GPT doit analyser exclusivement selon les axes suivants :
 6. Adéquation Premium (sans promesse)
 Aucun autre axe ne peut être ajouté.
 
-E — Règles d’analyse par axe (Premium+++ durci)
+F — Règles d’analyse par axe (Premium+++ durci)
 Pour chaque axe, le prompt GPT doit produire :
 1) Constats perceptifs observables
    - minimum 2 constats
@@ -82,7 +95,7 @@ Les niveaux suivants doivent être strictement séparés :
 - effets perceptifs
 - lecture éditoriale
 
-F — Format de sortie GPT obligatoire
+G — Format de sortie GPT obligatoire (V2.1)
 Le prompt GPT doit produire exactement :
 1) Résumé exécutif
    - 5 à 8 lignes maximum
@@ -112,27 +125,35 @@ Le prompt GPT doit produire exactement :
    - AUDIT COMPLET
    - ou INCOMPLET (avec précision explicite)
 
-G — Archivage conditionnel (mot-clé ARCHIVER)
-- Par défaut : aucun archivage.
-- Si le mot-clé ARCHIVER est présent :
-  1) Vérifier la présence de :
-     - <categorie>
-     - <nom-du-fichier> (slug)
-  2) Si une information manque :
-     - la demander explicitement
-     - ne rien générer
-  3) Une fois confirmé :
-     - produire un PROMPT CODEX prêt à copier/coller
-     - ce prompt Codex doit :
-       - créer docs/audit/audio/<categorie>/ si nécessaire
-       - écrire ou écraser :
-         docs/audit/audio/<categorie>/<nom-du-fichier>-audit.md
-       - y coller exactement le contenu de l’audit affiché
-       - créer un commit unique (message standard : "docs(audit): archive audio audit")
-- Sans le mot-clé ARCHIVER :
-  - aucun prompt Codex d’archivage ne doit être généré.
+H — Archivage conditionnel (mot-clé ARCHIVER) — APRÈS L’AUDIT
+Ajouter une règle explicite :
+- « Si ARCHIVER est présent, produire d’abord l’audit complet, puis seulement après, un bloc séparé intitulé “PROMPT CODEX — ARCHIVAGE”. »
+- « Sans ARCHIVER, ne jamais produire de prompt Codex. »
 
-H — Style rédactionnel imposé
+Exigences d’archivage (si ARCHIVER) :
+- Par défaut : aucun archivage.
+- Vérifier la présence de :
+  - <categorie>
+  - <nom-du-fichier> (slug)
+- Si une information manque :
+  - la demander explicitement
+  - ne rien générer
+- Une fois confirmé :
+  - produire un PROMPT CODEX prêt à copier/coller
+  - ce prompt Codex doit :
+    - créer docs/audit/audio/<categorie>/ si nécessaire
+    - écrire ou écraser :
+      docs/audit/audio/<categorie>/<nom-du-fichier>-audit.md
+    - y coller exactement le contenu de l’audit affiché
+    - créer un commit unique (message standard : "docs(audit): archive audio audit")
+
+I — Interdits (maintenir Premium+++)
+- aucun diagnostic / promesse
+- pas de jugement de niveau humain
+- interdiction des mots : amateur, débutant, avancé, expert, professionnel
+- aucune proposition d’aide / optimisation / réécriture
+
+J — Style rédactionnel imposé
 - Français uniquement
 - Ton professionnel, neutre, normatif
 - Aucun emoji
