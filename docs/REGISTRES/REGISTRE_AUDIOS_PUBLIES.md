@@ -20,6 +20,7 @@ Copier-coller le modèle ci-dessous (code Markdown) pour maintenir une vue conso
 | A07 | Renforcement de la motivation | Développement personnel | Découverte / test | ~8–9 min | — | Publié (test) | v0 | 78 | Initiale | Complément |
 | A08 | Amélioration de la concentration | Développement personnel | Découverte / pilier | ~10–11 min | — | Publié (test) | v0 | 82 | Stabilisée | Pilier |
 | A09 | Amélioration de la mémoire | Développement personnel | Découverte / pilier | ~10 min | — | Publié (test) | v0 | 80 | Stabilisée | Pilier |
+| A10 | Amélioration de la confiance en soi | Développement personnel | Découverte / test | ~12–13 min | — | Publié (test) | v0 | 79 | Initiale | Complément |
 ```
 
 ## Fiche détaillée (gabarit par audio)
@@ -161,6 +162,23 @@ Copier-coller le modèle ci-dessous (code Markdown) pour maintenir une vue conso
   - Alléger la pédagogie consciente
   - Rendre l’ancrage implicite
   - Supprimer les références conscientes aux fréquences
+
+## Fiche détaillée — A10 « Amélioration de la confiance en soi »
+- **ID** : A10
+- **Titre** : Amélioration de la confiance en soi
+- **Thème** : Développement personnel
+- **Mode de séance** : Découverte / test
+- **Durée** : ~12–13 min
+- **Effets** : —
+- **Statut** : Publié (test)
+- **Version** : v0
+- **Indice de qualité global : 79 %** (évalue cohérence hypnotique, confort d’écoute, richesse imaginaire)
+- **Maturité éditoriale : initiale**
+- **Rôle dans le catalogue : complément**
+- **Pistes d’amélioration (si nouvelle version)** :
+  - Rendre le langage plus permissif
+  - Réduire l’explication consciente
+  - Retirer les références conscientes aux fréquences
 
 ## TODO (hors V1)
 - Ajouter des exemples de statuts historiques si besoin.
