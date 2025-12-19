@@ -1,5 +1,5 @@
 PROMPT CODEX — Générateur du prompt GPT d’audit audio
-Version Premium+++ · V2.1 (durcie et stabilisée)
+Version Premium+++ · V2.2 (durcie et stabilisée)
 
 Objectif
 Remplacer intégralement le fichier suivant par un prompt GPT d’audit audio Premium+++ prêt à copier/coller, strictement normatif, lisible, reproductible et industrialisable :
@@ -95,7 +95,7 @@ Les niveaux suivants doivent être strictement séparés :
 - effets perceptifs
 - lecture éditoriale
 
-G — Format de sortie GPT obligatoire (V2.1)
+G — Format de sortie GPT obligatoire (V2.2)
 Le prompt GPT doit produire exactement :
 1) Résumé exécutif
    - 5 à 8 lignes maximum
@@ -124,6 +124,12 @@ Le prompt GPT doit produire exactement :
 7) Statut de complétude
    - AUDIT COMPLET
    - ou INCOMPLET (avec précision explicite)
+8) Rappel passif d’archivage (NOUVEAU — critique)
+   - ajouter en toute fin de sortie (après “Statut de complétude” et après tout bloc d’archivage éventuel) le texte exact suivant, sur ses lignes dédiées :
+
+*Si tu souhaites archiver cet audit dans le dépôt GitHub  
+(`docs/audit/audio/<categorie>/<nom-du-fichier>-audit.md`),  
+indique simplement le mot **ARCHIVER** dans ta prochaine demande.*
 
 H — Archivage conditionnel (mot-clé ARCHIVER) — APRÈS L’AUDIT
 Ajouter une règle explicite :
