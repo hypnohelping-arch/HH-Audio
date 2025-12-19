@@ -21,6 +21,7 @@ Copier-coller le modèle ci-dessous (code Markdown) pour maintenir une vue conso
 | A08 | Amélioration de la concentration | Développement personnel | Découverte / pilier | ~10–11 min | — | Publié (test) | v0 | 82 | Stabilisée | Pilier |
 | A09 | Amélioration de la mémoire | Développement personnel | Découverte / pilier | ~10 min | — | Publié (test) | v0 | 80 | Stabilisée | Pilier |
 | A10 | Amélioration de la confiance en soi | Développement personnel | Découverte / test | ~12–13 min | — | Publié (test) | v0 | 79 | Initiale | Complément |
+| A11 | Sommeil et relaxation | Sommeil & détente | Découverte / test | ~10–12 min | — | Publié (test) | v0 | 77 | Initiale | Complément |
 ```
 
 ## Fiche détaillée (gabarit par audio)
@@ -179,6 +180,23 @@ Copier-coller le modèle ci-dessous (code Markdown) pour maintenir une vue conso
   - Rendre le langage plus permissif
   - Réduire l’explication consciente
   - Retirer les références conscientes aux fréquences
+
+## Fiche détaillée — A11 « Sommeil et relaxation »
+- **ID** : A11
+- **Titre** : Sommeil et relaxation
+- **Thème** : Sommeil & détente
+- **Mode de séance** : Découverte / test
+- **Durée** : ~10–12 min
+- **Effets** : —
+- **Statut** : Publié (test)
+- **Version** : v0
+- **Indice de qualité global : 77 %** (évalue confort d’écoute, richesse imaginaire, sécurité émotionnelle)
+- **Maturité éditoriale : initiale**
+- **Rôle dans le catalogue : complément**
+- **Pistes d’amélioration (si nouvelle version)** :
+  - Alléger la pédagogie consciente
+  - Rendre le langage plus permissif
+  - Supprimer les références conscientes aux fréquences
 
 ## TODO (hors V1)
 - Ajouter des exemples de statuts historiques si besoin.
