@@ -17,6 +17,7 @@ Copier-coller le modèle ci-dessous (code Markdown) pour maintenir une vue conso
 | A04 | Réduction de la douleur | Santé & bien-être — accompagnement | Découverte / expérimental | ~10 min | — | Publié (avec cadrage) | v1.0 | 72 | Initiale | Expérimental |
 | A05 | Gestion du poids | Santé & bien-être — accompagnement | Découverte / expérimental | ~16 min | — | Publié (avec cadrage) | v1.0 | 61 | Initiale | Expérimental |
 | A06 | Gestion du stress et de l’anxiété | Santé & bien-être — accompagnement | Découverte / complément | ~10 min | — | Publié (avec cadrage) | v1.0 | 70 | Initiale | Complément |
+| A07 | Renforcement de la motivation | Développement personnel | Découverte / test | ~8–9 min | — | Publié (test) | v0 | 78 | Initiale | Complément |
 ```
 
 ## Fiche détaillée (gabarit par audio)
@@ -106,6 +107,23 @@ Copier-coller le modèle ci-dessous (code Markdown) pour maintenir une vue conso
 - **Pistes d’amélioration (si nouvelle version)** :
   - Réduire la pédagogie explicative
   - Utiliser un langage permissif indirect
+  - Supprimer les références conscientes aux fréquences
+
+## Fiche détaillée — A07 « Renforcement de la motivation »
+- **ID** : A07
+- **Titre** : Renforcement de la motivation
+- **Thème** : Développement personnel
+- **Mode de séance** : Découverte / test
+- **Durée** : ~8–9 min
+- **Effets** : —
+- **Statut** : Publié (test)
+- **Version** : v0
+- **Indice de qualité global : 78 %** (évalue cohérence hypnotique, confort d’écoute, clarté narrative)
+- **Maturité éditoriale : initiale**
+- **Rôle dans le catalogue : complément**
+- **Pistes d’amélioration (si nouvelle version)** :
+  - Alléger la pédagogie initiale
+  - Renforcer l’indirectivité des suggestions
   - Supprimer les références conscientes aux fréquences
 
 ## TODO (hors V1)
