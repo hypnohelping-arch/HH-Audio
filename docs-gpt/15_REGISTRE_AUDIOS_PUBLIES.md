@@ -18,6 +18,7 @@ Copier-coller le modèle ci-dessous (code Markdown) pour maintenir une vue conso
 | A05 | Gestion du poids | Santé & bien-être — accompagnement | Découverte / expérimental | ~16 min | — | Publié (avec cadrage) | v1.0 | 61 | Initiale | Expérimental |
 | A06 | Gestion du stress et de l’anxiété | Santé & bien-être — accompagnement | Découverte / complément | ~10 min | — | Publié (avec cadrage) | v1.0 | 70 | Initiale | Complément |
 | A07 | Renforcement de la motivation | Développement personnel | Découverte / test | ~8–9 min | — | Publié (test) | v0 | 78 | Initiale | Complément |
+| A08 | Amélioration de la concentration | Développement personnel | Découverte / pilier | ~10–11 min | — | Publié (test) | v0 | 82 | Stabilisée | Pilier |
 ```
 
 ## Fiche détaillée (gabarit par audio)
@@ -125,6 +126,23 @@ Copier-coller le modèle ci-dessous (code Markdown) pour maintenir une vue conso
   - Alléger la pédagogie initiale
   - Renforcer l’indirectivité des suggestions
   - Supprimer les références conscientes aux fréquences
+
+## Fiche détaillée — A08 « Amélioration de la concentration »
+- **ID** : A08
+- **Titre** : Amélioration de la concentration
+- **Thème** : Développement personnel
+- **Mode de séance** : Découverte / pilier
+- **Durée** : ~10–11 min
+- **Effets** : —
+- **Statut** : Publié (test)
+- **Version** : v0
+- **Indice de qualité global : 82 %** (évalue cohérence hypnotique, confort d’écoute, richesse imaginaire)
+- **Maturité éditoriale : stabilisée**
+- **Rôle dans le catalogue : pilier**
+- **Pistes d’amélioration (si nouvelle version)** :
+  - Réduire l’explication des symboles
+  - Rendre le langage plus permissif
+  - Retirer les références conscientes aux fréquences
 
 ## TODO (hors V1)
 - Ajouter des exemples de statuts historiques si besoin.
