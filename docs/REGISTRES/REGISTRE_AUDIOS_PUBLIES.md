@@ -16,6 +16,7 @@ Copier-coller le modèle ci-dessous (code Markdown) pour maintenir une vue conso
 | A03 | Arrêter de fumer | Santé & bien-être — accompagnement | Découverte / expérimental | ~10 min | — | Publié | v1.0 | 67 | Initiale | Expérimental |
 | A04 | Réduction de la douleur | Santé & bien-être — accompagnement | Découverte / expérimental | ~10 min | — | Publié (avec cadrage) | v1.0 | 72 | Initiale | Expérimental |
 | A05 | Gestion du poids | Santé & bien-être — accompagnement | Découverte / expérimental | ~16 min | — | Publié (avec cadrage) | v1.0 | 61 | Initiale | Expérimental |
+| A06 | Gestion du stress et de l’anxiété | Santé & bien-être — accompagnement | Découverte / complément | ~10 min | — | Publié (avec cadrage) | v1.0 | 70 | Initiale | Complément |
 ```
 
 ## Fiche détaillée (gabarit par audio)
@@ -89,6 +90,23 @@ Copier-coller le modèle ci-dessous (code Markdown) pour maintenir une vue conso
   - Supprimer les promesses explicites de résultat
   - Utiliser un langage permissif indirect
   - Retirer toute référence consciente aux fréquences thérapeutiques
+
+## Fiche détaillée — A06 « Gestion du stress et de l’anxiété »
+- **ID** : A06
+- **Titre** : Gestion du stress et de l’anxiété
+- **Thème** : Santé & bien-être — accompagnement
+- **Mode de séance** : Découverte / complément
+- **Durée** : ~10 min
+- **Effets** : —
+- **Statut** : Publié (avec cadrage)
+- **Version** : v1.0
+- **Indice de qualité global : 70 %** (évalue cohérence hypnotique, confort d’écoute, sécurité émotionnelle)
+- **Maturité éditoriale : initiale**
+- **Rôle dans le catalogue : complément**
+- **Pistes d’amélioration (si nouvelle version)** :
+  - Réduire la pédagogie explicative
+  - Utiliser un langage permissif indirect
+  - Supprimer les références conscientes aux fréquences
 
 ## TODO (hors V1)
 - Ajouter des exemples de statuts historiques si besoin.
