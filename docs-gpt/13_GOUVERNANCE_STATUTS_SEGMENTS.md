@@ -7,6 +7,7 @@ Rôle : définir les statuts de progression et de décision pour chaque segment 
 - Un segment LOCKED ne peut être modifié sans décision consignée.
 - Les segments ARCHIVE restent lisibles mais exclus des livraisons.
 - Les blocages doivent être tracés dans 14_DECISIONS_TODO_LOG.md.
+- Certaines décisions humaines ou exceptions, sans modifier les statuts segments, peuvent générer une dette documentaire à consigner.
 
 ## Transitions autorisées
 | Statut source | Statut cible |

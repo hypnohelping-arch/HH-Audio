@@ -4,6 +4,7 @@ Rôle : décrire la chaîne de production standardisée pour les séances premiu
 ## Règles clés
 - Segmenter en phases : cadrage, script, voix, son, QA, verrouillage.
 - Chaque phase requiert une validation formelle avant de passer à la suivante.
+- La dette documentaire est un mécanisme transversal, non bloquant par défaut, immédiat ou différé, et ne freine pas l’avancement dès lors qu’elle est tracée.
 - Les artefacts doivent rester traçables (versions datées, hash consignés en registre ou log QA).
 - Aucun hash n'est requis dans le nom de fichier.
 - Les exceptions doivent être journalisées dans 14_DECISIONS_TODO_LOG.md.
