@@ -6,216 +6,217 @@ Consigner chaque audio publié, ses métadonnées, son positionnement éditorial
 ## Règle fondamentale
 1 audio publié = 1 entrée unique. Toute évolution nécessite une nouvelle version (aucune suppression d’entrée).
 
+## Légende (statuts / rôles / maturité)
+### Statuts
+- Publié
+- Publié (test)
+- Publié (avec cadrage)
+- Retiré
+- Archivé
+
+### Rôles
+- Pilier
+- Complément
+- Expérimental
+- Pilier d’entrée
+
+### Maturité éditoriale
+- Initiale
+- Stabilisée
+- Aboutie
+
+### Valeur manquante
+- — = information non renseignée dans le corpus audité
+
 ## Vue synthétique (tableau du registre)
-Copier-coller le modèle ci-dessous (code Markdown) pour maintenir une vue consolidée.
+| ID | Titre | Catégorie | Statut | Version | Rôle | Maturité | Qualité % |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| — | Éveil des sens | Découverte | — | — | — | — | — |
+| — | Relaxation et éveil | Découverte | — | — | — | — | 74 |
+| A03 | Arrêter de fumer | Santé & bien-être | Publié | v1.0 | Expérimental | Initiale | 67 |
+| A04 | Réduction de la douleur | Santé & bien-être | Publié (avec cadrage) | v1.0 | Expérimental | Initiale | 72 |
+| A05 | Gestion du poids | Santé & bien-être | Publié (avec cadrage) | v1.0 | Expérimental | Initiale | 61 |
+| A06 | Gestion du stress et de l’anxiété | Santé & bien-être | Publié (avec cadrage) | v1.0 | Complément | Initiale | 70 |
+| A07 | Renforcement de la motivation | Santé & bien-être | Publié (test) | v0 | Complément | Initiale | 78 |
+| A08 | Amélioration de la concentration | Santé & bien-être | Publié (test) | v0 | Pilier | Stabilisée | 82 |
+| A09 | Amélioration de la mémoire | Santé & bien-être | Publié (test) | v0 | Pilier | Stabilisée | 80 |
+| A10 | Amélioration de la confiance en soi | Santé & bien-être | Publié (test) | v0 | Complément | Initiale | 79 |
+| A11 | Sommeil et relaxation | Santé & bien-être | Publié (test) | v0 | Complément | Initiale | 77 |
+| A12 | Relaxation et méditation | Santé & bien-être | Publié (test) | v0 | Pilier d’entrée | Initiale | 75 |
+| — | Développement personnel | Développement personnel | — | v1 | — | — | 65 |
+| — | Amélioration de la créativité | Développement personnel | — | — | — | — | 63 |
 
-```
-| ID | Titre | Thème | Mode | Durée | Effets | Statut | Version | Qualité (%) | Maturité | Rôle |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| HH-AUD-001 | Titre de référence | Sommeil | Voix seule | 20:00 | Léger | Publié | v1.0.0 | 92 | Stabilisée | Pilier |
-| A03 | Arrêter de fumer | Santé & bien-être — accompagnement | Découverte / expérimental | ~10 min | — | Publié | v1.0 | 67 | Initiale | Expérimental |
-| A04 | Réduction de la douleur | Santé & bien-être — accompagnement | Découverte / expérimental | ~10 min | — | Publié (avec cadrage) | v1.0 | 72 | Initiale | Expérimental |
-| A05 | Gestion du poids | Santé & bien-être — accompagnement | Découverte / expérimental | ~16 min | — | Publié (avec cadrage) | v1.0 | 61 | Initiale | Expérimental |
-| A06 | Gestion du stress et de l’anxiété | Santé & bien-être — accompagnement | Découverte / complément | ~10 min | — | Publié (avec cadrage) | v1.0 | 70 | Initiale | Complément |
-| A07 | Renforcement de la motivation | Développement personnel | Découverte / test | ~8–9 min | — | Publié (test) | v0 | 78 | Initiale | Complément |
-| A08 | Amélioration de la concentration | Développement personnel | Découverte / pilier | ~10–11 min | — | Publié (test) | v0 | 82 | Stabilisée | Pilier |
-| A09 | Amélioration de la mémoire | Développement personnel | Découverte / pilier | ~10 min | — | Publié (test) | v0 | 80 | Stabilisée | Pilier |
-| A10 | Amélioration de la confiance en soi | Développement personnel | Découverte / test | ~12–13 min | — | Publié (test) | v0 | 79 | Initiale | Complément |
-| A11 | Sommeil et relaxation | Sommeil & détente | Découverte / test | ~10–12 min | — | Publié (test) | v0 | 77 | Initiale | Complément |
-| A12 | Relaxation et méditation | Relaxation & méditation | Découverte / pilier d’entrée | ~10 min | — | Publié (test) | v0 | 75 | Initiale | Pilier d’entrée |
-```
+## Registre détaillé par catégorie
+### Découverte
+#### Éveil des sens
+- **ID** : —
+- **Titre** : Éveil des sens
+- **Catégorie** : Découverte
+- **Statut** : —
+- **Version** : —
+- **Rôle** : —
+- **Maturité** : —
+- **Qualité %** : —
+- **État de production** : —
 
-## Fiche détaillée (gabarit par audio)
-- **ID / Titre / Thème / Mode / Durée / Effets** : champs d’identification obligatoires.
-- **Statut** : publié / retiré / archivé (jamais supprimé).
-- **Version** : format sémantique (vX.Y.Z), chaque entrée est figée par version.
-- **Indice de qualité global : XX %** — évalue cohérence hypnotique, confort d’écoute, stabilité émotionnelle.
-- **Maturité éditoriale : initiale / stabilisée / aboutie**.
-- **Rôle dans le catalogue : pilier / complément / expérimental / transition**.
-- **Pistes d’amélioration (si nouvelle version)** : ≤ 3 puces, optionnelles.
+#### Relaxation et éveil
+- **ID** : —
+- **Titre** : Relaxation et éveil
+- **Catégorie** : Découverte
+- **Statut** : —
+- **Version** : —
+- **Rôle** : —
+- **Maturité** : —
+- **Qualité %** : 74
+- **État de production** : —
 
-## Versions et statuts
+### Santé & bien-être
+#### A03 — Arrêter de fumer
+- **ID** : A03
+- **Titre** : Arrêter de fumer
+- **Catégorie** : Santé & bien-être
+- **Statut** : Publié
+- **Version** : v1.0
+- **Rôle** : Expérimental
+- **Maturité** : Initiale
+- **Qualité %** : 67
+- **État de production** : —
+
+#### A04 — Réduction de la douleur
+- **ID** : A04
+- **Titre** : Réduction de la douleur
+- **Catégorie** : Santé & bien-être
+- **Statut** : Publié (avec cadrage)
+- **Version** : v1.0
+- **Rôle** : Expérimental
+- **Maturité** : Initiale
+- **Qualité %** : 72
+- **État de production** : —
+
+#### A05 — Gestion du poids
+- **ID** : A05
+- **Titre** : Gestion du poids
+- **Catégorie** : Santé & bien-être
+- **Statut** : Publié (avec cadrage)
+- **Version** : v1.0
+- **Rôle** : Expérimental
+- **Maturité** : Initiale
+- **Qualité %** : 61
+- **État de production** : —
+
+#### A06 — Gestion du stress et de l’anxiété
+- **ID** : A06
+- **Titre** : Gestion du stress et de l’anxiété
+- **Catégorie** : Santé & bien-être
+- **Statut** : Publié (avec cadrage)
+- **Version** : v1.0
+- **Rôle** : Complément
+- **Maturité** : Initiale
+- **Qualité %** : 70
+- **État de production** : —
+
+#### A07 — Renforcement de la motivation
+- **ID** : A07
+- **Titre** : Renforcement de la motivation
+- **Catégorie** : Santé & bien-être
+- **Statut** : Publié (test)
+- **Version** : v0
+- **Rôle** : Complément
+- **Maturité** : Initiale
+- **Qualité %** : 78
+- **État de production** : —
+
+#### A08 — Amélioration de la concentration
+- **ID** : A08
+- **Titre** : Amélioration de la concentration
+- **Catégorie** : Santé & bien-être
+- **Statut** : Publié (test)
+- **Version** : v0
+- **Rôle** : Pilier
+- **Maturité** : Stabilisée
+- **Qualité %** : 82
+- **État de production** : —
+
+#### A09 — Amélioration de la mémoire
+- **ID** : A09
+- **Titre** : Amélioration de la mémoire
+- **Catégorie** : Santé & bien-être
+- **Statut** : Publié (test)
+- **Version** : v0
+- **Rôle** : Pilier
+- **Maturité** : Stabilisée
+- **Qualité %** : 80
+- **État de production** : —
+
+#### A10 — Amélioration de la confiance en soi
+- **ID** : A10
+- **Titre** : Amélioration de la confiance en soi
+- **Catégorie** : Santé & bien-être
+- **Statut** : Publié (test)
+- **Version** : v0
+- **Rôle** : Complément
+- **Maturité** : Initiale
+- **Qualité %** : 79
+- **État de production** : —
+
+#### A11 — Sommeil et relaxation
+- **ID** : A11
+- **Titre** : Sommeil et relaxation
+- **Catégorie** : Santé & bien-être
+- **Statut** : Publié (test)
+- **Version** : v0
+- **Rôle** : Complément
+- **Maturité** : Initiale
+- **Qualité %** : 77
+- **État de production** : —
+
+#### A12 — Relaxation et méditation
+- **ID** : A12
+- **Titre** : Relaxation et méditation
+- **Catégorie** : Santé & bien-être
+- **Statut** : Publié (test)
+- **Version** : v0
+- **Rôle** : Pilier d’entrée
+- **Maturité** : Initiale
+- **Qualité %** : 75
+- **État de production** : —
+
+### Développement personnel
+#### Développement personnel
+- **ID** : —
+- **Titre** : Développement personnel
+- **Catégorie** : Développement personnel
+- **Statut** : —
+- **Version** : v1
+- **Rôle** : —
+- **Maturité** : —
+- **Qualité %** : 65
+- **État de production** : —
+
+#### Amélioration de la créativité
+- **ID** : —
+- **Titre** : Amélioration de la créativité
+- **Catégorie** : Développement personnel
+- **Statut** : —
+- **Version** : —
+- **Rôle** : —
+- **Maturité** : —
+- **Qualité %** : 63
+- **État de production** : —
+
+## Gouvernance & historique
+### Versions et statuts
 - Toute nouvelle version crée une nouvelle ligne et une nouvelle fiche détaillée.
 - Un statut « retiré » ou « archivé » conserve l’entrée, sans suppression.
 - Le score de qualité est figé pour la version concernée (pas de recalcul hors nouvelle version).
 
-## Règles de gouvernance
+### Règles de gouvernance
 1. 1 audio publié = 1 entrée unique (pas de fusion).
 2. Pas de suppression : utiliser les statuts « retiré » ou « archivé ».
 3. Score figé par version, recalcul uniquement lors d’une nouvelle version.
 4. Remarques / pistes d’amélioration bornées à 3, et optionnelles.
 5. Un audio publié est considéré terminé ; les remarques servent aux itérations futures.
 
-## Fiche détaillée — A03 « Arrêter de fumer »
-- **ID** : A03
-- **Titre** : Arrêter de fumer
-- **Thème** : Santé & bien-être — accompagnement
-- **Mode de séance** : Découverte / expérimental
-- **Durée** : ~10 min
-- **Effets** : —
-- **Statut** : Publié
-- **Version** : v1.0
-- **Indice de qualité global : 67 %** (évalue cohérence hypnotique, confort d’écoute, sécurité émotionnelle)
-- **Maturité éditoriale : initiale**
-- **Rôle dans le catalogue : expérimental**
-- **Pistes d’amélioration (si nouvelle version)** :
-  - Alléger fortement le discours explicatif
-  - Utiliser un langage permissif indirect
-  - Clarifier le positionnement non thérapeutique
-
-## Fiche détaillée — A04 « Réduction de la douleur »
-- **ID** : A04
-- **Titre** : Réduction de la douleur
-- **Thème** : Santé & bien-être — accompagnement
-- **Mode de séance** : Découverte / expérimental
-- **Durée** : ~10 min
-- **Effets** : —
-- **Statut** : Publié (avec cadrage)
-- **Version** : v1.0
-- **Indice de qualité global : 72 %** (évalue cohérence hypnotique, confort d’écoute, sécurité émotionnelle)
-- **Maturité éditoriale : initiale**
-- **Rôle dans le catalogue : expérimental**
-- **Pistes d’amélioration (si nouvelle version)** :
-  - Clarifier le cadre non thérapeutique
-  - Rendre la focalisation sur la douleur optionnelle
-  - Retirer toute référence à des fréquences thérapeutiques
-
-## Fiche détaillée — A05 « Gestion du poids »
-- **ID** : A05
-- **Titre** : Gestion du poids
-- **Thème** : Santé & bien-être — accompagnement
-- **Mode de séance** : Découverte / expérimental
-- **Durée** : ~16 min
-- **Effets** : —
-- **Statut** : Publié (avec cadrage)
-- **Version** : v1.0
-- **Indice de qualité global : 61 %** (évalue cohérence hypnotique, confort d’écoute, sécurité émotionnelle)
-- **Maturité éditoriale : initiale**
-- **Rôle dans le catalogue : expérimental**
-- **Pistes d’amélioration (si nouvelle version)** :
-  - Supprimer les promesses explicites de résultat
-  - Utiliser un langage permissif indirect
-  - Retirer toute référence consciente aux fréquences thérapeutiques
-
-## Fiche détaillée — A06 « Gestion du stress et de l’anxiété »
-- **ID** : A06
-- **Titre** : Gestion du stress et de l’anxiété
-- **Thème** : Santé & bien-être — accompagnement
-- **Mode de séance** : Découverte / complément
-- **Durée** : ~10 min
-- **Effets** : —
-- **Statut** : Publié (avec cadrage)
-- **Version** : v1.0
-- **Indice de qualité global : 70 %** (évalue cohérence hypnotique, confort d’écoute, sécurité émotionnelle)
-- **Maturité éditoriale : initiale**
-- **Rôle dans le catalogue : complément**
-- **Pistes d’amélioration (si nouvelle version)** :
-  - Réduire la pédagogie explicative
-  - Utiliser un langage permissif indirect
-  - Supprimer les références conscientes aux fréquences
-
-## Fiche détaillée — A07 « Renforcement de la motivation »
-- **ID** : A07
-- **Titre** : Renforcement de la motivation
-- **Thème** : Développement personnel
-- **Mode de séance** : Découverte / test
-- **Durée** : ~8–9 min
-- **Effets** : —
-- **Statut** : Publié (test)
-- **Version** : v0
-- **Indice de qualité global : 78 %** (évalue cohérence hypnotique, confort d’écoute, clarté narrative)
-- **Maturité éditoriale : initiale**
-- **Rôle dans le catalogue : complément**
-- **Pistes d’amélioration (si nouvelle version)** :
-  - Alléger la pédagogie initiale
-  - Renforcer l’indirectivité des suggestions
-  - Supprimer les références conscientes aux fréquences
-
-## Fiche détaillée — A08 « Amélioration de la concentration »
-- **ID** : A08
-- **Titre** : Amélioration de la concentration
-- **Thème** : Développement personnel
-- **Mode de séance** : Découverte / pilier
-- **Durée** : ~10–11 min
-- **Effets** : —
-- **Statut** : Publié (test)
-- **Version** : v0
-- **Indice de qualité global : 82 %** (évalue cohérence hypnotique, confort d’écoute, richesse imaginaire)
-- **Maturité éditoriale : stabilisée**
-- **Rôle dans le catalogue : pilier**
-- **Pistes d’amélioration (si nouvelle version)** :
-  - Réduire l’explication des symboles
-  - Rendre le langage plus permissif
-  - Retirer les références conscientes aux fréquences
-
-## Fiche détaillée — A09 « Amélioration de la mémoire »
-- **ID** : A09
-- **Titre** : Amélioration de la mémoire
-- **Thème** : Développement personnel
-- **Mode de séance** : Découverte / pilier
-- **Durée** : ~10 min
-- **Effets** : —
-- **Statut** : Publié (test)
-- **Version** : v0
-- **Indice de qualité global : 80 %** (évalue cohérence hypnotique, confort d’écoute, richesse imaginaire)
-- **Maturité éditoriale : stabilisée**
-- **Rôle dans le catalogue : pilier**
-- **Pistes d’amélioration (si nouvelle version)** :
-  - Alléger la pédagogie consciente
-  - Rendre l’ancrage implicite
-  - Supprimer les références conscientes aux fréquences
-
-## Fiche détaillée — A10 « Amélioration de la confiance en soi »
-- **ID** : A10
-- **Titre** : Amélioration de la confiance en soi
-- **Thème** : Développement personnel
-- **Mode de séance** : Découverte / test
-- **Durée** : ~12–13 min
-- **Effets** : —
-- **Statut** : Publié (test)
-- **Version** : v0
-- **Indice de qualité global : 79 %** (évalue cohérence hypnotique, confort d’écoute, richesse imaginaire)
-- **Maturité éditoriale : initiale**
-- **Rôle dans le catalogue : complément**
-- **Pistes d’amélioration (si nouvelle version)** :
-  - Rendre le langage plus permissif
-  - Réduire l’explication consciente
-  - Retirer les références conscientes aux fréquences
-
-## Fiche détaillée — A11 « Sommeil et relaxation »
-- **ID** : A11
-- **Titre** : Sommeil et relaxation
-- **Thème** : Sommeil & détente
-- **Mode de séance** : Découverte / test
-- **Durée** : ~10–12 min
-- **Effets** : —
-- **Statut** : Publié (test)
-- **Version** : v0
-- **Indice de qualité global : 77 %** (évalue confort d’écoute, richesse imaginaire, sécurité émotionnelle)
-- **Maturité éditoriale : initiale**
-- **Rôle dans le catalogue : complément**
-- **Pistes d’amélioration (si nouvelle version)** :
-  - Alléger la pédagogie consciente
-  - Rendre le langage plus permissif
-  - Supprimer les références conscientes aux fréquences
-
-## Fiche détaillée — A12 « Relaxation et méditation »
-- **ID** : A12
-- **Titre** : Relaxation et méditation
-- **Thème** : Relaxation & méditation
-- **Mode de séance** : Découverte / pilier d’entrée
-- **Durée** : ~10 min
-- **Effets** : —
-- **Statut** : Publié (test)
-- **Version** : v0
-- **Indice de qualité global : 75 %** (évalue accessibilité, confort d’écoute, sécurité émotionnelle)
-- **Maturité éditoriale : initiale**
-- **Rôle dans le catalogue : pilier d’entrée**
-- **Pistes d’amélioration (si nouvelle version)** :
-  - Réduire la pédagogie consciente
-  - Rendre le langage plus permissif et indirect
-  - Supprimer les références conscientes aux fréquences
-
-## TODO (hors V1)
+### Historique / TODO (hors V1)
 - Ajouter des exemples de statuts historiques si besoin.
 - Décrire un flux de validation QA détaillé (post-V1).
