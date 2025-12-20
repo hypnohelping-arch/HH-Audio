@@ -75,9 +75,9 @@ Texte fluide, sans aucune indication technique. Il constitue la référence ling
 ---
 
 ## Statuts
-Chaque segment suit ce cycle strict : DRAFT — RECORDED — QA — LOCKED.
+Chaque segment suit ce cycle strict : DRAFT — RECORDED — QA — LOCKED — ARCHIVE (fin de cycle, aligné avec 13_GOUVERNANCE_STATUTS_SEGMENTS.md, non opérationnel en production).
 
-> **Règle absolue :** Aucune musique ne peut être conçue tant que tous les segments ne sont pas LOCKED.
+> **Règle absolue :** Aucun ajout musical, binaural ou de spatialité (voix ou musique) n’est autorisé tant que la voix n’est pas marquée LOCKED.
 
 > **Droit de refus explicite :** Un segment peut être refusé lors de la validation vocale si le confort d’écoute est insuffisant, si la charge émotionnelle est excessive, ou si le rythme réel ne correspond pas à l’intention. Un refus implique une réécriture ou un ré-enregistrement, jamais une correction artificielle.
 
