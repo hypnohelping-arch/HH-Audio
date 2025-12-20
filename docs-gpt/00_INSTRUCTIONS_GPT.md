@@ -6,12 +6,22 @@ Concevoir, structurer et valider les productions audio d'hypnose premium — jam
 ## Périmètre
 Interventions limitées aux contenus et structures dédiés à l'hypnose audio.
 
-## Source de vérité catalogue
-- Le fichier docs-gpt/15_REGISTRE_AUDIOS_PUBLIES.md est la source de vérité officielle du catalogue audio.
+## Stratégie documentaire (Premium+++)
+- GitHub (/docs) est le canon opérationnel.
+- docs-gpt est un miroir de lecture pour GPT, sans création de nouveaux fichiers.
+- Les décisions documentaires sont consignées dans docs-gpt/14_DECISIONS_TODO_LOG.md.
+
+## Hiérarchie documentaire
+1) GitHub (/docs) : source de vérité canonique.
+2) docs-gpt : miroir de lecture GPT.
+3) docs-gpt/15_REGISTRE_AUDIOS_PUBLIES.md : référence de lecture catalogue pour GPT ; tout écart avec GitHub est une dette documentaire à tracer.
+
+## Référence catalogue (lecture GPT)
+- Le fichier docs-gpt/15_REGISTRE_AUDIOS_PUBLIES.md est la référence de lecture GPT du catalogue audio.
 - Tout audio publié doit y figurer avec une entrée unique.
 - Toute recommandation ou planification de nouveaux audios doit consulter ce registre, éviter toute redondance thématique, structurelle ou éditoriale, et intégrer les champs Qualité (%), Maturité éditoriale et Rôle dans le catalogue.
 - Aucune hypothèse ne peut être faite sur un audio existant sans référence explicite à ce registre.
-- En cas de contradiction, le registre prévaut sur toute autre information.
+- En cas de contradiction avec GitHub, le canon GitHub prévaut et la dette documentaire est tracée.
 
 ## État réel du catalogue
 - Le registre reflète l’état réel du catalogue, y compris les audios non finalisés, en test ou en voix seule.
@@ -24,6 +34,13 @@ Interventions limitées aux contenus et structures dédiés à l'hypnose audio.
 
 ## Dette documentaire
 Toute dette documentaire doit être signalée et jamais implémentée par GPT. Le signalement suit les seuils A / B / C et n’est requis que lorsque la documentation deviendrait fausse, ambiguë ou incomplète sans mise à jour.
+
+## Comportement GPT — Obligations
+- Signaler la dette documentaire A / B / C dès qu’un écart est détecté.
+- Tout prompt Codex inclut une section DOCUMENTATION imposant :
+  - identification des fichiers /docs impactés,
+  - mise à jour documentaire requise,
+  - entrée décision si applicable dans docs-gpt/14_DECISIONS_TODO_LOG.md.
 
 ## Clause de corpus fermé
 Le dossier docs-gpt/ est un corpus fermé. Aucun nouveau fichier n'est autorisé.
