@@ -75,7 +75,7 @@ Texte fluide, sans aucune indication technique. Il constitue la référence ling
 ---
 
 ## Statuts
-Chaque segment suit ce cycle strict : DRAFT — RECORDED — VALIDATED — LOCKED.
+Chaque segment suit ce cycle strict : DRAFT — RECORDED — QA — LOCKED.
 
 > **Règle absolue :** Aucune musique ne peut être conçue tant que tous les segments ne sont pas LOCKED.
 

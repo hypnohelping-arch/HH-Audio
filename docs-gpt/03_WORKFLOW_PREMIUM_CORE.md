@@ -4,7 +4,8 @@ Rôle : décrire la chaîne de production standardisée pour les séances premiu
 ## Règles clés
 - Segmenter en phases : cadrage, script, voix, son, QA, verrouillage.
 - Chaque phase requiert une validation formelle avant de passer à la suivante.
-- Les artefacts doivent rester traçables (versions datées et hashées).
+- Les artefacts doivent rester traçables (versions datées, hash consignés en registre ou log QA).
+- Aucun hash n'est requis dans le nom de fichier.
 - Les exceptions doivent être journalisées dans 14_DECISIONS_TODO_LOG.md.
 - Livrer uniquement après double contrôle croisé (voix + QA audio).
 

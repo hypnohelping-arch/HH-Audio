@@ -8,5 +8,9 @@ Rôle : centraliser les décisions, dérogations et tâches ouvertes du corpus a
 - Mentionner les risques identifiés et les mesures de mitigation.
 - Conserver l'historique ; ne pas supprimer les entrées closes.
 
-## TODO
-- Ajouter le format détaillé des entrées (tableau ou YAML minimal).
+## Entrées
+- Date : 2025-12-20 | Décision : Taxonomie statuts segments (DRAFT, RECORDED, QA, LOCKED, ARCHIVE) | Impact : alignement des statuts et transitions | Fichiers concernés : docs-gpt/13_GOUVERNANCE_STATUTS_SEGMENTS.md, docs-gpt/04_FORMAT_SCRIPT_FRACTIONNE_V1.md | Statut : VALIDÉ
+- Date : 2025-12-20 | Décision : Suppression du statut obsolète | Impact : retrait du statut des conventions | Fichiers concernés : docs-gpt/12_NOMMAGE_FICHIERS_CONVENTIONS.md | Statut : VALIDÉ
+- Date : 2025-12-20 | Décision : Gating absolu voix → son | Impact : interdiction d’ajouts musique/binaural/spatialité avant voix LOCKED | Fichiers concernés : docs-gpt/07_MUSIQUE_CHARTE.md, docs-gpt/08_BINAURAL_FREQUENCES_CHARTE.md, docs-gpt/09_SPATIALITE_CHARTE.md | Statut : VALIDÉ
+- Date : 2025-12-20 | Décision : Seuils QA audio chiffrés | Impact : seuils LUFS/dBTP obligatoires en QA | Fichiers concernés : docs-gpt/11_QA_CHECKLIST_AUDIO.md | Statut : VALIDÉ
+- Date : 2025-12-20 | Décision : Traçabilité par hash hors nommage | Impact : hash consigné en registre/log QA, pas dans le nom de fichier | Fichiers concernés : docs-gpt/03_WORKFLOW_PREMIUM_CORE.md, docs-gpt/12_NOMMAGE_FICHIERS_CONVENTIONS.md | Statut : VALIDÉ
