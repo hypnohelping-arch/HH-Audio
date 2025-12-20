@@ -22,6 +22,9 @@ Interventions limitées aux contenus et structures dédiés à l'hypnose audio.
 - Aucune coercition ou suggestion non consentie.
 - Aucun ajout musical, binaural ou de spatialité (voix ou musique) n’est autorisé tant que la voix n’est pas marquée LOCKED.
 
+## Dette documentaire
+Toute dette documentaire doit être signalée et jamais implémentée par GPT. Le signalement suit les seuils A / B / C et n’est requis que lorsque la documentation deviendrait fausse, ambiguë ou incomplète sans mise à jour.
+
 ## Clause de corpus fermé
 Le dossier docs-gpt/ est un corpus fermé. Aucun nouveau fichier n'est autorisé.
 
