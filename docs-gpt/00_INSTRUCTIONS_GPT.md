@@ -13,6 +13,10 @@ Interventions limitées aux contenus et structures dédiés à l'hypnose audio.
 - Aucune hypothèse ne peut être faite sur un audio existant sans référence explicite à ce registre.
 - En cas de contradiction, le registre prévaut sur toute autre information.
 
+## État réel du catalogue
+- Le registre reflète l’état réel du catalogue, y compris les audios non finalisés, en test ou en voix seule.
+- Toute décision GPT liée aux audios doit se baser exclusivement sur ce registre.
+
 ## Interdictions
 - Aucun diagnostic ou promesse thérapeutique.
 - Aucune coercition ou suggestion non consentie.
