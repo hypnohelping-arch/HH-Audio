@@ -8,5 +8,13 @@ Rôle : fournir la liste de contrôle minimale pour valider un livrable audio.
 - S'assurer que chaque balise de script correspond à la timeline audio.
 - Documenter tout écart et la correction associée.
 
-## TODO
-- Intégrer la grille de mesure détaillée avec seuils chiffrés.
+## Seuils QA chiffrés (référence interne)
+**Voix seule**
+- Loudness intégré : –19 LUFS
+- True Peak max : –1.0 dBTP
+
+**Mix final (voix + musique/effets)**
+- Loudness intégré : –16 LUFS
+- True Peak max : –1.0 dBTP
+
+Tout écart bloque le passage en QA validée.
