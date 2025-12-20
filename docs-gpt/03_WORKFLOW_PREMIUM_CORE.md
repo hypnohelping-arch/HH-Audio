@@ -11,5 +11,53 @@ Rôle : décrire la chaîne de production standardisée pour les séances premiu
 - Les exceptions doivent être journalisées dans 14_DECISIONS_TODO_LOG.md.
 - Livrer uniquement après double contrôle croisé (voix + QA audio).
 
+## Gestion des audios en cours (méthode Premium+++)
+
+### Principe de traçabilité
+- 1 audio = 1 dossier dédié (terrain de production), jamais écrasé, jamais implicite.
+- La vérité officielle de gouvernance reste dans les documents :
+  - décisions / dérogations / travaux en cours : `docs-gpt/14_DECISIONS_TODO_LOG.md`
+  - audios publiés uniquement : `docs-gpt/15_REGISTRE_AUDIOS_PUBLIES.md`
+- Le dossier audio documente l’exécution et l’état réel (fichiers, versions, notes), mais ne remplace pas la gouvernance.
+
+### Structure minimale recommandée d’un dossier audio
+Exemple (indicatif, à adapter au besoin sans complexifier) :
+
+- `voix/` : source voix (jamais écrasée)
+- `son/` : mixes et itérations (v1, v2, …), notes son
+- `notes/` : journal d’évolution daté
+- `README.md` : état actuel (1 page max)
+
+### Deux parcours de production selon l’état de la voix
+
+#### PARCOURS A — VOIX_EXISTANTE (voix déjà enregistrée / quasi figée)
+Usage : audio labo ou expérimental lorsque la voix n’est pas réenregistrée.
+
+Règles :
+- La voix peut être considérée LOCKED par décision humaine si explicitement acté.
+- Toute dérogation au gating voix → son doit être consignée dans `docs-gpt/14_DECISIONS_TODO_LOG.md`.
+- L’optimisation sonore reste prudente : la voix demeure la référence et ne doit pas être masquée.
+- Le score cible et le plafond réaliste doivent être définis avant itérations.
+
+#### PARCOURS B — CREATION_FROM_SCRATCH (co-création native)
+Usage : production Premium+++ native.
+
+Règles :
+- Script fractionné V1 dès le départ (segments enregistrables).
+- Voix enregistrée par segments, puis QA, puis LOCKED.
+- Aucun ajout musique/binaural/spatialité avant voix LOCKED (règle standard).
+
+### Champs Premium+++ (obligatoires en mode LABO)
+Pour tout audio en mode LABO (et recommandé au-delà), documenter dans le `README.md` du dossier audio :
+
+- `MODE_DE_PRODUCTION :` VOIX_EXISTANTE | CREATION_FROM_SCRATCH
+- `INTENTION_DE_TEST :` (obligatoire en LABO) ce que l’on cherche à apprendre/mesurer
+- `CRITERE_D_ARRET :` (obligatoire en LABO) seuil de fin d’itération (ex. score cible atteint ou gain marginal faible)
+- `GAIN_ESTIME :` (recommandé) estimation simple avant / après (ex. voix seule vs après design sonore)
+
+Note :
+- Ces champs améliorent la gouvernance et évitent les tests implicites.
+- Ils n’ajoutent pas de complexité technique ; ils rendent l’expérimentation traçable et exploitable.
+
 ## TODO
 - Ajouter les diagrammes détaillés du flux lorsque prêts.
