@@ -11,6 +11,34 @@ Rôle : décrire la chaîne de production standardisée pour les séances premiu
 - Les exceptions doivent être journalisées dans 14_DECISIONS_TODO_LOG.md.
 - Livrer uniquement après double contrôle croisé (voix + QA audio).
 
+## Automatisation Premium+++ (clarification workflow)
+Objectif : expliciter ce qui est automatisable, semi-automatisable et humain obligatoire, sans changer les principes CORE.
+
+### Script voix
+- Automatisable : génération de script V0.
+- Semi-automatisable : préparation du script fractionné V1 (segments enregistrables), sous validation humaine.
+- Humain obligatoire : validation vocale humaine avant toute suite.
+
+### Musique
+- Automatisable : génération musicale.
+- Semi-automatisable : ajustements techniques (niveau constant, fondus synchronisés), sous règles de la charte.
+- Humain obligatoire : sélection humaine des pistes et validation QA avant mix final.
+
+### Mix
+- Automatisable : mix technique.
+- Semi-automatisable : itérations de mix après voix LOCKED, la voix restant la référence (gating voix → son non négociable).
+- Humain obligatoire : validation humaine du mix.
+
+### QA
+- Automatisable : QA chiffrée (LUFS / dBTP).
+- Semi-automatisable : vérification de correspondance balises script ↔ timeline audio.
+- Humain obligatoire : écoute humaine obligatoire.
+
+### Gouvernance
+- Automatisable : consignation des versions datées et des hash en registre ou log QA.
+- Semi-automatisable : pré-structuration des journaux d’exceptions et de dette documentaire.
+- Humain obligatoire : décision finale toujours humaine.
+
 ## Gestion des audios en cours (méthode Premium+++)
 
 ### Principe de traçabilité
