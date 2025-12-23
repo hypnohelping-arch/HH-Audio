@@ -9,5 +9,10 @@ Rôle : définir le placement sonore et la spatialisation compatibles avec l'hyp
 - Documenter tout choix de spatialisation dans les notes de mixage.
 - Aucun ajout musical, binaural ou de spatialité (voix ou musique) n’est autorisé tant que la voix n’est pas marquée LOCKED.
 
+## Automatisation
+- Automatisable : réglages techniques de spatialité conformes à la charte, après voix LOCKED.
+- Semi-automatisable : application des limites de mouvement et de réverbération, sous validation humaine.
+- Humain obligatoire : validation humaine du placement final.
+
 ## TODO
 - Ajouter les presets recommandés pour les principaux DAW.

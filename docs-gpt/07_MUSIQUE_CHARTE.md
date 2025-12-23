@@ -9,5 +9,10 @@ Rôle : définir l'usage musical compatible avec l'hypnose premium sécurisée.
 - Valider chaque piste via QA avant tout mixage final.
 - Aucun ajout musical, binaural ou de spatialité (voix ou musique) n’est autorisé tant que la voix n’est pas marquée LOCKED.
 
+## Automatisation
+- Automatisable : génération musicale conforme aux règles de la charte.
+- Semi-automatisable : ajustements techniques (niveau, fondus, synchronisation), sous validation humaine.
+- Humain obligatoire : sélection des pistes et validation QA avant mix final.
+
 ## TODO
 - Ajouter les profils sonores recommandés et interdits.
