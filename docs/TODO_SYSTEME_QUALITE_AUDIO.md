@@ -202,6 +202,18 @@ TODO — ÉTAPE 7.2 (SOUND_DESIGN_ALLOWED)
 - Dépendance : VOICE_LOCKED validé (OK)
 - Statut : DONE (charte ÉTAPE 7.2 — SOUND_DESIGN_ALLOWED validée / frozen)
 
+## TODO — ÉTAPE 10 (FINAL_RENDERED)
+
+TODO — ÉTAPE 10 (FINAL_RENDERED)
+- Définir la charte FINAL_RENDERED :
+  - conditions de rendu définitif,
+  - règles de non-retour créatif,
+  - contrôles finaux avant publication,
+  - archivage et traçabilité.
+- Priorité : haute
+- Dépendance : PREVIEW_APPROVED validé (OK)
+- Statut : TODO
+
 ## TODO — ÉTAPE 8 (MIX_ITERATING)
 
 TODO — ÉTAPE 8 (MIX_ITERATING)
@@ -224,7 +236,7 @@ TODO — ÉTAPE 9 (PREVIEW_APPROVED)
   - lien avec FINAL_RENDERED.
 - Priorité : haute
 - Dépendance : MIX_ITERATING validé (OK)
-- Statut : TODO
+- Statut : DONE (charte ÉTAPE 9 — PREVIEW_APPROVED validée / frozen)
 
 ## Ordre d’exécution recommandé
 

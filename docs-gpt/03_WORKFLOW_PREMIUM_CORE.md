@@ -51,8 +51,12 @@
    - **Cadre** : charte **VALIDÉE / FROZEN (Premium+++)** — mix invisible vérifiable, itérations à intention unique, validation à volume bas, droit au rejet intuitif, gestion de la fatigue, irréversibilité avant PREVIEW_APPROVED.
    - **Rappels** : dépendance stricte à SOUND_DESIGN_ALLOWED ; itérations réversibles documentées ; aucun rendu final/mastering à ce stade.
    - **Préparation** : preview humain (≤ 60 s) prêt pour PREVIEW_APPROVED.
-10. **Étape 9 — PREVIEW_APPROVED** : validation écoute humaine (≤ 60 s) avant rendu final ; charte dédiée à définir ultérieurement.
-11. **Étape 10 — FINAL_RENDERED** : rendu final.
+10. **Étape 9 — PREVIEW_APPROVED (PRÊTE)** : validation écoute humaine (≤ 60 s) en condition réelle avant rendu final.
+    - **Accès** : uniquement après **MIX_ITERATING** validé et preview prêt.
+    - **Cadre** : charte **VALIDÉE / FROZEN (Premium+++), PRÊTE** — validation de l’expérience (pas de perfection technique), écoute intégrale aux volumes normal et bas, écoute en condition d’usage réel, non-correction cosmétique si validé, continuité d’engagement et engagement éditorial explicite.
+    - **Décision** : droit au refus intuitif ou au report ; validation différée recommandée ; critères de validation/refus formalisés ; interdiction de modifier le preview après validation.
+    - **Ouverture** : PREVIEW_APPROVED ouvre **FINAL_RENDERED** sous dépendance stricte.
+11. **Étape 10 — FINAL_RENDERED** : rendu définitif publiable, accessible uniquement après PREVIEW_APPROVED ; charte dédiée à définir ultérieurement.
 12. **Étape 11 — RELEASE_LOCKED** : verrouillage publication.
 
 ### PACK DE DOCUMENTATION GPT (pré-Étape 3)
