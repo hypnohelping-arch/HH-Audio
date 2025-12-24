@@ -15,3 +15,4 @@
 
 ## Dette documentaire
 - Le signalement suit A/B/C et déclenche la mise à jour documentaire ou une entrée de dette.
+- Dette B (chartes métier) clôturée le 2025-12-24 ; référence : décision « Publication des chartes métier en canon /docs/CHARTES (V1 CORE figé) » dans docs-gpt/14_DECISIONS_TODO_LOG.md.
