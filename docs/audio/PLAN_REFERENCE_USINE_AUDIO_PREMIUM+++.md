@@ -103,6 +103,9 @@ Aucun mode ne peut bypasser une étape critique.
 8. **Étape 7 — SEGMENTATION_LOCKED / SOUND_DESIGN_ALLOWED (ouverte, charte à définir)** : découpage final figé + autorisation sound design.
    - **Dépendance** : uniquement accessible après VOICE_LOCKED validé.
    - **Périmètre** : autorise la segmentation et le sound design ; charte dédiée à formaliser ultérieurement.
+   - **Mise à jour Premium+++** : ÉTAPE 7.1 — SEGMENTATION_LOCKED est **VALIDÉE / FROZEN (Premium+++)** et **PRÊTE**, voir charte canon.
+   - **Rappels** : dépendance stricte à VOICE_LOCKED ; rôle structurel de la segmentation ; validation humaine obligatoire ; condition d’accès à SOUND_DESIGN_ALLOWED.
+   - **Préparation ÉTAPE 7.2 — SOUND_DESIGN_ALLOWED** : accessible uniquement après SEGMENTATION_LOCKED validée ; autorise le travail sonore subordonné à la voix ; sera définie par une charte dédiée ultérieurement (non détaillée ici).
 9. **Étape 8 — MIX_ITERATING** : itérations de mixage contrôlées.
 10. **Étape 9 — PREVIEW_APPROVED** : validation écoute humaine (≤ 60 s).
 11. **Étape 10 — FINAL_RENDERED** : rendu final.
