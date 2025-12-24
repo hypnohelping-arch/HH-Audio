@@ -191,6 +191,17 @@ TODO — ÉTAPE 7 (SEGMENTATION_LOCKED / SOUND_DESIGN_ALLOWED)
 - Dépendance : VOICE_LOCKED validé (OK)
 - Statut : TODO
 
+TODO — ÉTAPE 7.2 (SOUND_DESIGN_ALLOWED)
+- Définir la charte ÉTAPE 7.2 :
+  - musique fonctionnelle,
+  - binaural optionnel et non continu,
+  - spatialité discrète,
+  - validation humaine,
+  - garde-fous Premium+++.
+- Priorité : haute
+- Dépendance : SEGMENTATION_LOCKED validée (OK)
+- Statut : TODO
+
 ## Ordre d’exécution recommandé
 
 1. TODO-1
