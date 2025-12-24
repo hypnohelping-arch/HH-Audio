@@ -76,7 +76,13 @@ Aucun mode ne peut bypasser une étape critique.
    - **Sortie** : PACK DE DOCUMENTATION GPT (interface uniquement).
    - **Garde-fous** : lecture seule ; aucune invention ; aucune création de fichier ; aucune inclusion d’éléments sonores.
    - **Statut pipeline** : SCRIPT_CLEAN interdit tant que l’ÉTAPE 2.5 n’est pas exécutée.
-4. **Étape 3 — Script clean** : rédaction du texte hypnotique pur.
+4. **Étape 3 — Script clean (VALIDÉE, OPÉRATIONNELLE, BLOQUANTE)** : rédaction du texte hypnotique pur, obligatoire avant toute étape ultérieure.
+   - **Objectif** : production du texte hypnotique lisible à plat (aucune technique, aucune intention vocale).
+   - **Entrées requises** : FICHE AUDIO V0 (V1) validée ; PACK DE DOCUMENTATION GPT (ÉTAPE 2.5).
+   - **Sortie** : SCRIPT CLEAN validé humainement.
+   - **Garde-fous** : aucune technique ; aucune indication vocale ; aucune musique/son/binaural ; aucune promesse ou diagnostic.
+   - **Statut pipeline** : SCRIPT_CLEAN_VALIDÉ requis pour passer à l’ÉTAPE 4 (blocage si non validé humainement).
+   - **Référence** : AUDIO-REF-01 = script clean de référence Premium+++ (respect CORE, niveau attendu, benchmark QA/GPT).
 5. **Étape 4 — Script studio** : ajout des intentions vocales et respirations.
 6. **Étape 5 — VOICE_DRAFT** : enregistrement ou import voix V0.
 7. **Étape 6 — VOICE_LOCKED** : validation voix verrouillée.
