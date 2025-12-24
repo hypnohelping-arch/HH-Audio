@@ -107,10 +107,12 @@ Aucun mode ne peut bypasser une étape critique.
      - **ÉTAPE 7.1 — SEGMENTATION_LOCKED** : **VALIDÉE / FROZEN (Premium+++)** et **PRÊTE**, voir charte canon.
      - **ÉTAPE 7.2 — SOUND_DESIGN_ALLOWED** : **VALIDÉE / FROZEN (Premium+++), PRÊTE** ; prérequis **VOICE_LOCKED + SEGMENTATION_LOCKED**, ordre de priorité **voix > silence > musique > effets**, validation humaine renforcée ; ouvre l’accès à **MIX_ITERATING (ÉTAPE 8)**. Voir charte canon.
    - **Rappels** : dépendance stricte à VOICE_LOCKED ; rôle structurel de la segmentation ; validation humaine obligatoire ; condition d’accès à SOUND_DESIGN_ALLOWED et au mix.
-9. **Étape 8 — MIX_ITERATING** : itérations de mixage contrôlées (voix prioritaire).
-   - **Accès** : uniquement après SOUND_DESIGN_ALLOWED validée.
-   - **Cadre** : itérations de mix sous charte dédiée à définir ultérieurement (non détaillée à ce stade) ; voix reste prioritaire.
-10. **Étape 9 — PREVIEW_APPROVED** : validation écoute humaine (≤ 60 s).
+9. **Étape 8 — MIX_ITERATING (PRÊTE)** : itérations de mixage contrôlées (voix prioritaire).
+   - **Accès** : uniquement après **SOUND_DESIGN_ALLOWED validée**.
+   - **Cadre** : charte **VALIDÉE / FROZEN (Premium+++)** — mix invisible vérifiable, itérations à intention unique, validation à volume bas, droit au rejet intuitif, gestion de la fatigue, irréversibilité avant PREVIEW_APPROVED.
+   - **Rappels** : dépendance stricte à SOUND_DESIGN_ALLOWED ; itérations réversibles documentées ; aucun rendu final/mastering à ce stade.
+   - **Préparation** : preview humain (≤ 60 s) prêt pour PREVIEW_APPROVED.
+10. **Étape 9 — PREVIEW_APPROVED** : validation écoute humaine (≤ 60 s) avant rendu final ; charte dédiée à définir ultérieurement.
 11. **Étape 10 — FINAL_RENDERED** : rendu final.
 12. **Étape 11 — RELEASE_LOCKED** : verrouillage publication.
 

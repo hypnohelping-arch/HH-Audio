@@ -213,9 +213,17 @@ TODO — ÉTAPE 8 (MIX_ITERATING)
   - prérequis QA avant rendu final.
 - Priorité : haute
 - Dépendance : SOUND_DESIGN_ALLOWED validé (OK)
-- Statut : TODO
+- Statut : DONE (charte ÉTAPE 8 — MIX_ITERATING validée / frozen)
+
+## TODO — ÉTAPE 9 (PREVIEW_APPROVED)
+
+TODO — ÉTAPE 9 (PREVIEW_APPROVED)
+- Définir la charte PREVIEW_APPROVED :
+  - critères d’écoute finale,
+  - conditions de validation humaine,
+  - lien avec FINAL_RENDERED.
 - Priorité : haute
-- Dépendance : SEGMENTATION_LOCKED validée (OK)
+- Dépendance : MIX_ITERATING validé (OK)
 - Statut : TODO
 
 ## Ordre d’exécution recommandé
