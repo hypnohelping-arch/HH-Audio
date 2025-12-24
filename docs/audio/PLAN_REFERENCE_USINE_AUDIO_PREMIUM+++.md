@@ -96,15 +96,17 @@ Aucun mode ne peut bypasser une étape critique.
    - **Écoute** : **écoute partielle structurée** autorisée pour détecter les défauts flagrants ; ne constitue pas une validation finale.
    - **Garde-fous** : aucune musique/binaural/spatialité/sound design/mixage/segmentation finale avant VOICE_LOCKED ; interdiction de publier ou diffuser.
    - **Gating** : VOICE_LOCKED inaccessible sans VOICE_DRAFT conforme.
-7. **Étape 6 — VOICE_LOCKED** : validation voix verrouillée.
-   - **Principe** : **écoute humaine complète obligatoire**, engageant la responsabilité éditoriale.
-   - **Charte** : charte dédiée à venir ; dépend de la conformité VOICE_DRAFT (ÉTAPE 5 validée).
-8. **Étape 7 — SEGMENTATION_LOCKED** : découpage final figé.
-9. **Étape 8 — SOUND_DESIGN_ALLOWED** : autorisation sound design (pas avant VOICE_LOCKED).
-10. **Étape 9 — MIX_ITERATING** : itérations de mixage contrôlées.
-11. **Étape 10 — PREVIEW_APPROVED** : validation écoute humaine (≤ 60 s).
-12. **Étape 11 — FINAL_RENDERED** : rendu final.
-13. **Étape 12 — RELEASE_LOCKED** : verrouillage publication.
+7. **Étape 6 — VOICE_LOCKED (PRÊTE / verrou final de la voix)** : validation voix verrouillée.
+   - **Principe** : **écoute humaine complète obligatoire**, engageant la responsabilité éditoriale ; conditionne toute segmentation et tout sound design.
+   - **Charte** : **VALIDÉE / FROZEN (Premium+++)**, voir charte ÉTAPE 6 — VOICE_LOCKED.
+   - **Gating** : aucune segmentation finale, aucun sound design, aucune spatialité ou musique avant VOICE_LOCKED ; verrou final de la voix avant toute étape aval.
+8. **Étape 7 — SEGMENTATION_LOCKED / SOUND_DESIGN_ALLOWED (ouverte, charte à définir)** : découpage final figé + autorisation sound design.
+   - **Dépendance** : uniquement accessible après VOICE_LOCKED validé.
+   - **Périmètre** : autorise la segmentation et le sound design ; charte dédiée à formaliser ultérieurement.
+9. **Étape 8 — MIX_ITERATING** : itérations de mixage contrôlées.
+10. **Étape 9 — PREVIEW_APPROVED** : validation écoute humaine (≤ 60 s).
+11. **Étape 10 — FINAL_RENDERED** : rendu final.
+12. **Étape 11 — RELEASE_LOCKED** : verrouillage publication.
 
 ### 4.4 PACK DE DOCUMENTATION GPT (pré-Étape 3)
 - **Rôle** : transmettre à GPT un kit d’information minimal, sécurisé et aligné avant la rédaction du script clean.

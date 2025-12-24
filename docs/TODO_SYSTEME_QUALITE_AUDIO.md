@@ -177,6 +177,18 @@ TODO — ÉTAPE 6 (VOICE_LOCKED)
   - lien QA et publication.
 - Priorité : haute
 - Dépendance : ÉTAPE 5 validée (OK)
+- Statut : DONE (charte ÉTAPE 6 — VOICE_LOCKED validée / frozen)
+
+## TODO — ÉTAPE 7 (SEGMENTATION_LOCKED / SOUND_DESIGN_ALLOWED)
+
+TODO — ÉTAPE 7 (SEGMENTATION_LOCKED / SOUND_DESIGN_ALLOWED)
+- Définir la charte ÉTAPE 7 :
+  - règles de segmentation,
+  - autorisations sonores,
+  - garde-fous musique / binaural / spatialité,
+  - liens QA et validation humaine.
+- Priorité : haute
+- Dépendance : VOICE_LOCKED validé (OK)
 - Statut : TODO
 
 ## Ordre d’exécution recommandé
