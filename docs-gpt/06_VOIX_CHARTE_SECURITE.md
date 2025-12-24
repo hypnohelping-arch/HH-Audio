@@ -1,12 +1,10 @@
-# Voix — Charte de sécurité
-Rôle : sécuriser la captation, le traitement et l'usage des voix enregistrées.
+# Voix — Charte de sécurité (miroir canon /docs/audio/PLAN_REFERENCE_USINE_AUDIO_PREMIUM+++.md)
 
-## Règles clés
-- Vérifier l'identité et le consentement écrit des voix utilisées.
-- Stocker les prises voix chiffrées et limiter les accès aux rôles QA.
-- Interdire toute modification qui altère le message ou l'intention initiale.
-- Documenter chaque session de prise : date, script, état de validation.
-- Supprimer les brouillons non retenus après livraison finale.
+## Principes canoniques
+- La voix est l’axe de référence absolu ; aucune étape ne doit la dégrader.
+- Statuts séquentiels imposés : PROJECT_INIT → VOICE_DRAFT → VOICE_LOCKED avant toute segmentation/sound design.
+- Aucun ajout musical, binaural ou de spatialité tant que la voix n’est pas marquée VOICE_LOCKED.
+- Validation humaine obligatoire : la voix et son confort priment sur toute automatisation.
 
-## TODO
-- Ajouter le protocole détaillé de chiffrement et rotation des clés.
+## Dette documentaire
+Charte détaillée (consentements, sécurité opérationnelle) manquante dans /docs : à formaliser sans affaiblir les garde-fous ci-dessus.
