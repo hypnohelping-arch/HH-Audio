@@ -6,6 +6,9 @@ Version: V1 (CORE figé)
 Date: 2025-12-24
 Source: création canon
 Gouvernance: voir docs-gpt/14_DECISIONS_TODO_LOG.md
+Statut opérationnel : FROZEN / VALIDÉ (Premium+++) ; ÉTAPE 4 déclarée DONE au niveau process
+Application : obligatoire pour toute exécution Étape 4 (script studio)
+Gating : validation SCRIPT_STUDIO_VALIDÉ requise avant VOICE_DRAFT / VOICE_LOCKED
 ---
 
 ## 1. Définition canon du SCRIPT STUDIO
