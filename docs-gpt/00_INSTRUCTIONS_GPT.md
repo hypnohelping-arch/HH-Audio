@@ -31,6 +31,7 @@ Interventions limitées aux contenus et structures dédiés à l'hypnose audio.
 - Aucun diagnostic ou promesse thérapeutique.
 - Aucune coercition ou suggestion non consentie.
 - Aucun ajout musical, binaural ou de spatialité (voix ou musique) n’est autorisé tant que la voix n’est pas marquée LOCKED.
+- Le `STATUT_VOIX_GLOBAL` est un statut dérivé affiché dans les dossiers audio (README), calculé automatiquement à partir des statuts segments et jamais édité manuellement.
 
 ## Dette documentaire
 Toute dette documentaire doit être signalée et jamais implémentée par GPT. Le signalement suit les seuils A / B / C et n’est requis que lorsque la documentation deviendrait fausse, ambiguë ou incomplète sans mise à jour.
