@@ -23,6 +23,10 @@
    - **Statut pipeline** : SCRIPT_CLEAN_VALIDÉ requis pour passer à l’ÉTAPE 4 (blocage si non validé humainement).
    - **Référence** : AUDIO-REF-01 = script clean de référence Premium+++ (respect CORE, niveau attendu, benchmark QA/GPT).
 5. **Étape 4 — Script studio** : ajout des intentions vocales et respirations.
+   - **Référence obligatoire** : Charte ÉTAPE 4 — SCRIPT STUDIO (transformation non destructive du SCRIPT CLEAN, sens/structure intouchables).
+   - **Production** : annotations rares, visuelles, compatibles multi-voix, respectant la densité (1 annotation pour 2 à 4 phrases en moyenne).
+   - **Garde-fous** : aucune réécriture, aucune technique audio ; tout changement de sens renvoie à une nouvelle version du SCRIPT CLEAN.
+   - **Validation** : statut SCRIPT_STUDIO_VALIDÉ requis avant VOICE_DRAFT et VOICE_LOCKED (pipeline bloqué sinon).
 6. **Étape 5 — VOICE_DRAFT** : enregistrement ou import voix V0.
 7. **Étape 6 — VOICE_LOCKED** : validation voix verrouillée.
 8. **Étape 7 — SEGMENTATION_LOCKED** : découpage final figé.
@@ -41,6 +45,8 @@
 
 ## Exigences de production
 - Scripts hébergés dans chaque projet GitHub : `script_clean.md` (texte hypnotique pur) et `script_studio.md` (intentions vocales, silences, respiration).
+- Charte ÉTAPE 4 — SCRIPT STUDIO obligatoire : transformation non destructive, annotations légères, visuelles et compatibles multi-voix.
+- Statut SCRIPT_STUDIO_VALIDÉ requis avant tout VOICE_DRAFT et toute validation VOICE_LOCKED (pipeline bloqué sinon).
 - Découpage par blocs hypnotiques : découpage fonctionnel long, chaque bloc = unité de travail ; segmentation figée avant tout sound design.
 - Gestion des créations partielles : voix seule intégrable ; audio complet existant = recréation contrôlée (jamais patchée).
 - Réutilisation de blocs audio non active en V1 (bibliothèque prévue plus tard).
@@ -50,6 +56,7 @@
 - Aucune ré-exécution silencieuse : toute nouvelle itération nécessite une autorisation humaine explicite et tracée.
 - Validation post-mix : écoute humaine ≤ 60 s puis décision souveraine (Go / ajustement minimal / No-Go) avant publication.
 - Journal perceptif humain court par bloc hypnotique ; jamais automatisé.
+- Statuts script bloquants : SCRIPT_CLEAN_VALIDÉ pour démarrer l’ÉTAPE 4, SCRIPT_STUDIO_VALIDÉ avant toute capture VOICE_DRAFT et toute validation VOICE_LOCKED.
 
 ## Gouvernance et traçabilité
 - Décisions versionnées et réversibles ; exceptions consignées dans docs-gpt/14_DECISIONS_TODO_LOG.md.

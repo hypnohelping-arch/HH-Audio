@@ -84,6 +84,10 @@ Aucun mode ne peut bypasser une étape critique.
    - **Statut pipeline** : SCRIPT_CLEAN_VALIDÉ requis pour passer à l’ÉTAPE 4 (blocage si non validé humainement).
    - **Référence** : AUDIO-REF-01 = script clean de référence Premium+++ (respect CORE, niveau attendu, benchmark QA/GPT).
 5. **Étape 4 — Script studio** : ajout des intentions vocales et respirations.
+   - **Référence obligatoire** : Charte ÉTAPE 4 — SCRIPT STUDIO (transformation non destructive du SCRIPT CLEAN, sens/structure intouchables).
+   - **Production** : annotations rares, visuelles, compatibles multi-voix, respectant la densité (1 annotation pour 2 à 4 phrases en moyenne).
+   - **Garde-fous** : aucune réécriture, aucune technique audio ; tout changement de sens renvoie à une nouvelle version du SCRIPT CLEAN.
+   - **Validation** : statut SCRIPT_STUDIO_VALIDÉ requis avant VOICE_DRAFT et VOICE_LOCKED (pipeline bloqué sinon).
 6. **Étape 5 — VOICE_DRAFT** : enregistrement ou import voix V0.
 7. **Étape 6 — VOICE_LOCKED** : validation voix verrouillée.
 8. **Étape 7 — SEGMENTATION_LOCKED** : découpage final figé.
@@ -117,6 +121,10 @@ Statuts séquentiels obligatoires :
 
 Aucune étape ne peut être sautée.
 
+Statuts script bloquants complémentaires :
+- SCRIPT_CLEAN_VALIDÉ : requis pour déclencher l’ÉTAPE 4.
+- SCRIPT_STUDIO_VALIDÉ : requis avant toute capture VOICE_DRAFT et toute validation VOICE_LOCKED.
+
 ---
 
 ## 6. Scripts audio
@@ -130,6 +138,11 @@ Les scripts vivent **dans le projet audio**, sur GitHub.
 
 ### 6.3 Règle absolue
 Aucune indication musicale, sonore ou technique n’est autorisée dans le texte hypnotique.
+
+### 6.4 Charte ÉTAPE 4 — SCRIPT STUDIO
+- Le SCRIPT STUDIO applique la charte ÉTAPE 4 (transformation non destructive, annotations légères et visuellement distinctes).
+- SCRIPT_STUDIO_VALIDÉ est le passage obligé avant toute VOICE_DRAFT ; aucun enregistrement n’est autorisé sans cette validation.
+- La structure reste identique au SCRIPT CLEAN ; toute modification de sens doit passer par une nouvelle version du SCRIPT CLEAN.
 
 ---
 
