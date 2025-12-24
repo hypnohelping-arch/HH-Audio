@@ -6,6 +6,9 @@ Consigner chaque audio publié, ses métadonnées, son positionnement éditorial
 ## Règle fondamentale
 1 audio publié = 1 entrée unique. Toute évolution nécessite une nouvelle version (aucune suppression d’entrée).
 
+## Référence Premium+++ (script clean)
+- **AUDIO-REF-01** : script clean de référence pour l’ÉTAPE 3 du workflow Premium+++ (respect strict du CORE, niveau attendu, benchmark QA et GPT). Aucune inclusion audio ; repère documentaire uniquement.
+
 ## Légende (statuts / rôles / maturité)
 ### Statuts
 - Publié
