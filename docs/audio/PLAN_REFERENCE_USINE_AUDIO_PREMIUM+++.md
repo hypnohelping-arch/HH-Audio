@@ -117,8 +117,8 @@ Aucun mode ne peut bypasser une étape critique.
     - **Cadre** : charte **VALIDÉE / FROZEN (Premium+++), PRÊTE** — validation de l’expérience (pas de perfection technique), écoute intégrale aux volumes normal et bas, écoute en condition d’usage réel, non-correction cosmétique si validé, continuité d’engagement et engagement éditorial explicite.
     - **Décision** : droit au refus intuitif ou au report ; validation différée recommandée ; critères de validation/refus formalisés ; interdiction de modifier le preview après validation.
     - **Ouverture** : PREVIEW_APPROVED ouvre **FINAL_RENDERED** sous dépendance stricte.
-11. **Étape 10 — FINAL_RENDERED** : rendu définitif publiable, accessible uniquement après PREVIEW_APPROVED ; charte dédiée à définir ultérieurement.
-12. **Étape 11 — RELEASE_LOCKED** : verrouillage publication.
+11. **Étape 10 — FINAL_RENDERED (PRÊTE)** : rendu définitif publiable, accessible uniquement après PREVIEW_APPROVED ; charte **VALIDÉE / FROZEN (Premium+++), PRÊTE** ; verrou éditorial final engageant la responsabilité humaine ; conformité stricte au PREVIEW_APPROVED ; écoute de conformité post-rendu obligatoire ; aucune substitution silencieuse ; clôture officielle du pipeline Premium+++ ; toute modification impose une **nouvelle version complète**.
+12. **Étape 11 — RELEASE_LOCKED** : verrouillage publication après FINAL_RENDERED (diffusion contrôlée, hors pipeline de production clôturé).
 
 ### 4.4 PACK DE DOCUMENTATION GPT (pré-Étape 3)
 - **Rôle** : transmettre à GPT un kit d’information minimal, sécurisé et aligné avant la rédaction du script clean.
