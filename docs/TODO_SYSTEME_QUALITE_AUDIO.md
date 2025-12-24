@@ -136,6 +136,18 @@ NOTES:
 DONE_CRITERIA:
 - Seuils éditoriaux formels définis.
 
+## TODO — Niveau 2 (Non bloquant, validé)
+
+ID: TODO-12
+STATUS: TODO
+PRIORITY: LOW
+GOAL: Créer un PROMPT GPT d’assistance (niveau 2) capable de générer automatiquement le PROMPT CODEX de documentation GPT.
+NOTES:
+- Usage pédagogique ou d’onboarding humain.
+- Dépendance : workflow audio V1 finalisé et documenté.
+DONE_CRITERIA:
+- Prompt d’assistance validé et capable de générer le PROMPT CODEX de documentation GPT.
+
 ## Ordre d’exécution recommandé
 
 1. TODO-1
@@ -149,6 +161,7 @@ DONE_CRITERIA:
 9. TODO-9
 10. TODO-10
 11. TODO-11
+12. TODO-12
 
 ## Règles d’archivage (audit exploratoire vs référence)
 
