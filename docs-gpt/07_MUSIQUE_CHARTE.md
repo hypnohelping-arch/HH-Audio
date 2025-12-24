@@ -14,6 +14,13 @@ Rôle : définir l'usage musical compatible avec l'hypnose premium sécurisée.
 - Semi-automatisable : ajustements techniques (niveau, fondus, synchronisation), sous validation humaine.
 - Humain obligatoire : sélection des pistes et validation QA avant mix final.
 
+### Déclenchement HH-AutoMix Engine v1 — volet musique
+- Le mix automatique n’est jamais déclenché par défaut et n’initie aucune sélection musicale intelligente.
+- `STATUT_VOIX_GLOBAL` doit être `LOCKED` avant toute fusion voix/musique.
+- Le mode musical doit être explicite : `AVEC_MUSIQUE` ou `VOIX_SEULE_INTENTIONNELLE` (l’absence de musique peut être choisie et reste valide).
+- La piste musicale doit être fournie ou validée **avant** le déclenchement ; sinon le pré-check bloque l’exécution.
+- `AUTOMIX_AUTORISE` doit être positionné à `OUI` pour une seule itération, puis remis à zéro après exécution ; aucune ré-exécution silencieuse n’est tolérée.
+
 ## Profils HH-AutoMix (V1) compatibles
 Profils déterministes, non créatifs, compatibles HH-AutoMix Engine v1.
 

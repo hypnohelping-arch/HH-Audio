@@ -24,6 +24,28 @@ Profils déterministes, non créatifs, compatibles HH-AutoMix Engine v1.
 
 Règle obligatoire : si aucun profil existant ne couvre à 100 % l’intention, la catégorie et les contraintes du projet, la création d’un nouveau profil doit être demandée dès la **PHASE DE CADRAGE**, avant toute génération musicale ou mix. La décision de créer le nouveau profil reste humaine.
 
+#### Déclenchement formel HH-AutoMix Engine v1 (jamais automatique)
+Objectif : rendre l’exécution possible, prévisible et Premium+++ sans initiative automatique.
+
+Conditions cumulatives obligatoires (pré-check bloquant) :
+
+1. `STATUT_VOIX_GLOBAL = LOCKED` (tous les segments LOCKED).
+2. Un seul profil HH-AutoMix est sélectionné : Standard, Apaisement, Sommeil / Nuit, ou Immersion Mémoire.
+3. Le mode musical est explicite : `MODE_MUSICAL : AVEC_MUSIQUE` ou `MODE_MUSICAL : VOIX_SEULE_INTENTIONNELLE` (absence de musique possible et valide si intentionnelle).
+4. Les sources sont présentes : fichiers voix référencés, musique fournie ou validée si requise.
+5. Autorisation humaine explicite : `AUTOMIX_AUTORISE : OUI`, valable pour **une seule** exécution.
+
+Règles d’exécution :
+
+- Avant toute exécution : effectuer le pré-check. Si une condition échoue → **BLOQUER** et afficher une raison unique et claire. Aucun déclenchement implicite.
+- Pendant l’exécution : pas de « choix intelligent » automatique à la place de l’humain ; le mix est un droit conditionnel, jamais une initiative.
+- Après exécution :
+  - réinitialiser `AUTOMIX_AUTORISE` (nouvelle autorisation requise pour toute itération suivante) ;
+  - consigner une trace datée (profil, mode musical, version moteur, résultat) ;
+  - interdire toute ré-exécution silencieuse.
+
+Rappel : le mix automatique n’est jamais déclenché par défaut. Toute itération requiert une autorisation humaine explicite et unique.
+
 ### Script voix
 - Automatisable : génération de script V0.
 - Semi-automatisable : préparation du script fractionné V1 (segments enregistrables), sous validation humaine.

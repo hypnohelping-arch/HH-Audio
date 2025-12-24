@@ -13,6 +13,11 @@ Rôle : fournir la liste de contrôle minimale pour valider un livrable audio.
 - Semi-automatisable : vérification de correspondance balises script ↔ timeline audio, sous validation humaine.
 - Humain obligatoire : écoute humaine obligatoire avant validation QA finale.
 
+### Pré-check HH-AutoMix Engine v1 (blocant)
+- Vérifier que toutes les conditions de déclenchement sont vraies : voix `LOCKED`, profil HH-AutoMix unique sélectionné, mode musical explicite (`AVEC_MUSIQUE` ou `VOIX_SEULE_INTENTIONNELLE`), sources voix/musique disponibles, `AUTOMIX_AUTORISE : OUI`.
+- Si une seule condition échoue : **BLOQUER** l’exécution et remonter une raison unique et claire (pas de tentative automatique).
+- Après exécution : remettre `AUTOMIX_AUTORISE` à `NON`/valeur nulle et journaliser la trace (date, profil, mode musical, version moteur, résultat) avant toute QA.
+
 ## Checklist d’écoute humaine post-mix (≤ 60 s)
 - La voix est-elle confortable et naturelle partout ?
 - La musique attire-t-elle l’attention à un moment ?
