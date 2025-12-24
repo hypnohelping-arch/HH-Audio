@@ -199,6 +199,22 @@ TODO — ÉTAPE 7.2 (SOUND_DESIGN_ALLOWED)
   - validation humaine,
   - garde-fous Premium+++.
 - Priorité : haute
+- Dépendance : VOICE_LOCKED validé (OK)
+- Statut : DONE (charte ÉTAPE 7.2 — SOUND_DESIGN_ALLOWED validée / frozen)
+
+## TODO — ÉTAPE 8 (MIX_ITERATING)
+
+TODO — ÉTAPE 8 (MIX_ITERATING)
+- Définir la charte ÉTAPE 8 :
+  - règles d’itération,
+  - priorités voix,
+  - contrôles de distraction,
+  - validation humaine intermédiaire,
+  - prérequis QA avant rendu final.
+- Priorité : haute
+- Dépendance : SOUND_DESIGN_ALLOWED validé (OK)
+- Statut : TODO
+- Priorité : haute
 - Dépendance : SEGMENTATION_LOCKED validée (OK)
 - Statut : TODO
 

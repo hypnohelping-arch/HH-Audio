@@ -39,14 +39,17 @@
    - **Principe** : **écoute humaine complète obligatoire**, engageant la responsabilité éditoriale ; conditionne toute segmentation et tout sound design.
    - **Charte** : **VALIDÉE / FROZEN (Premium+++)**, voir charte ÉTAPE 6 — VOICE_LOCKED.
    - **Gating** : aucune segmentation finale, aucun sound design, aucune spatialité ou musique avant VOICE_LOCKED ; verrou final de la voix avant toute étape aval.
-8. **Étape 7 — SEGMENTATION_LOCKED / SOUND_DESIGN_ALLOWED (ouverte, charte à définir)** : découpage final figé + autorisation sound design.
+8. **Étape 7 — SEGMENTATION_LOCKED / SOUND_DESIGN_ALLOWED** : découpage final figé + autorisation sound design.
    - **Dépendance** : uniquement accessible après VOICE_LOCKED validé.
-   - **Périmètre** : autorise la segmentation et le sound design ; charte dédiée à formaliser ultérieurement.
-   - **Mise à jour Premium+++** : ÉTAPE 7.1 — SEGMENTATION_LOCKED est **VALIDÉE / FROZEN (Premium+++)** et **PRÊTE**, voir charte canon.
-   - **Rappels** : dépendance stricte à VOICE_LOCKED ; rôle structurel de la segmentation ; validation humaine obligatoire ; condition d’accès à SOUND_DESIGN_ALLOWED.
-   - **Préparation ÉTAPE 7.2 — SOUND_DESIGN_ALLOWED** : accessible uniquement après SEGMENTATION_LOCKED validée ; autorise le travail sonore subordonné à la voix ; sera définie par une charte dédiée ultérieurement (non détaillée ici).
-9. **Étape 8 — MIX_ITERATING** : itérations de mixage contrôlées.
- 10. **Étape 9 — PREVIEW_APPROVED** : validation écoute humaine (≤ 60 s).
+   - **Périmètre** : autorise la segmentation et le sound design.
+   - **Mise à jour Premium+++** :
+     - **ÉTAPE 7.1 — SEGMENTATION_LOCKED** : **VALIDÉE / FROZEN (Premium+++)** et **PRÊTE**, voir charte canon.
+     - **ÉTAPE 7.2 — SOUND_DESIGN_ALLOWED** : **VALIDÉE / FROZEN (Premium+++), PRÊTE** ; prérequis **VOICE_LOCKED + SEGMENTATION_LOCKED**, ordre de priorité **voix > silence > musique > effets**, validation humaine renforcée ; ouvre l’accès à **MIX_ITERATING (ÉTAPE 8)**. Voir charte canon.
+   - **Rappels** : dépendance stricte à VOICE_LOCKED ; rôle structurel de la segmentation ; validation humaine obligatoire ; condition d’accès à SOUND_DESIGN_ALLOWED et au mix.
+9. **Étape 8 — MIX_ITERATING** : itérations de mixage contrôlées (voix prioritaire).
+   - **Accès** : uniquement après SOUND_DESIGN_ALLOWED validée.
+   - **Cadre** : itérations de mix sous charte dédiée à définir ultérieurement (non détaillée à ce stade) ; voix reste prioritaire.
+10. **Étape 9 — PREVIEW_APPROVED** : validation écoute humaine (≤ 60 s).
  11. **Étape 10 — FINAL_RENDERED** : rendu final.
  12. **Étape 11 — RELEASE_LOCKED** : verrouillage publication.
 
