@@ -1,12 +1,9 @@
 # Langage hypnotique — Charte
-Rôle : cadrer le vocabulaire et le ton admissibles dans les scripts.
 
-## Règles clés
-- Favoriser les formulations permissives et auto-dirigées.
-- Proscrire toute suggestion d'obligation ou de dépendance.
-- Préférer la seconde personne plurielle inclusive ou le tutoiement assumé.
-- Maintenir une prosodie calme, régulière et non directive.
-- Éviter tout champ lexical médical ou diagnostic.
+## Source canonique
+MANQUANT_CANO : aucune charte de langage dédiée dans /docs. Seules les contraintes générales suivantes sont établies dans le canon :
+- Le texte hypnotique est souverain et ne doit contenir aucune indication musicale, sonore ou technique (voir scripts clean/studio).
+- La voix reste l’axe de référence ; les formulations doivent préserver la sécurité et le confort de l’auditeur.
 
-## TODO
-- Ajouter des exemples d'énoncés validés et bannis.
+## Dette documentaire
+Une charte de langage détaillée reste à formaliser dans /docs ; ne pas inventer de formulations nouvelles hors de ces garde-fous.

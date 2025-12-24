@@ -1,44 +1,13 @@
 # QA — Checklist audio
-Rôle : fournir la liste de contrôle minimale pour valider un livrable audio.
 
-## Règles clés
-- Vérifier le niveau RMS et le peak selon la norme interne.
-- Confirmer l'absence d'artefacts, clicks ou sibilances excessives.
-- Tester l'intelligibilité sur casques, écouteurs et enceintes neutres.
-- S'assurer que chaque balise de script correspond à la timeline audio.
-- Documenter tout écart et la correction associée.
+## Sources canoniques
+- Validation post-mix : écoute humaine ≤ 60 s avant publication (docs/audio/PLAN_REFERENCE_USINE_AUDIO_PREMIUM+++.md).
+- TODO_SYSTEME_QUALITE_AUDIO.md : structuration en cours de l’indice qualité et des seuils éditoriaux.
 
-## Automatisation
-- Automatisable : QA chiffrée (LUFS / dBTP) et contrôles techniques de base.
-- Semi-automatisable : vérification de correspondance balises script ↔ timeline audio, sous validation humaine.
-- Humain obligatoire : écoute humaine obligatoire avant validation QA finale.
+## Checklist minimale (canon + rappel opérations)
+- Pré-check bloquant avant HH-AutoMix Engine v1, puis déclenchement uniquement si `AUTOMIX_AUTORISE`.
+- Aucune ré-exécution silencieuse : toute nouvelle itération nécessite une autorisation humaine explicite et tracée.
+- Écoute humaine courte (≤ 60 s) pour décider : Go / ajustement minimal / No-Go.
 
-## Premium+++ V1 — validation officielle
-- HH-AutoMix Engine v1 est déterministe ; chaque exécution est conditionnée par `AUTOMIX_AUTORISE` (une seule itération) et un pré-check bloquant complet.
-- Pas de ré-exécution silencieuse : toute nouvelle itération requiert une autorisation humaine explicite et tracée.
-- La validation post-mix repose sur la checklist d’écoute humaine ≤ 60 s avec décision souveraine : Go / ajustement minimal / No-Go avant publication.
-
-### Pré-check HH-AutoMix Engine v1 (blocant)
-- Vérifier que toutes les conditions de déclenchement sont vraies : voix `LOCKED`, profil HH-AutoMix unique sélectionné, mode musical explicite (`AVEC_MUSIQUE` ou `VOIX_SEULE_INTENTIONNELLE`), sources voix/musique disponibles, `AUTOMIX_AUTORISE : OUI`.
-- Si une seule condition échoue : **BLOQUER** l’exécution et remonter une raison unique et claire (pas de tentative automatique).
-- Après exécution : remettre `AUTOMIX_AUTORISE` à `NON`/valeur nulle et journaliser la trace (date, profil, mode musical, version moteur, résultat) avant toute QA.
-
-## Checklist d’écoute humaine post-mix (≤ 60 s)
-- La voix est-elle confortable et naturelle partout ?
-- La musique attire-t-elle l’attention à un moment ?
-- Y a-t-il un masquage voix / musique ?
-- Les silences sont-ils respectés ?
-- Ressenti global : « j’oublie le son et j’écoute la voix ».
-
-Si toutes les réponses sont positives : publication possible. Sinon : ajustement humain minimal avant validation.
-
-## Seuils QA chiffrés (référence interne)
-**Voix seule**
-- Loudness intégré : –19 LUFS
-- True Peak max : –1.0 dBTP
-
-**Mix final (voix + musique/effets)**
-- Loudness intégré : –16 LUFS
-- True Peak max : –1.0 dBTP
-
-Tout écart bloque le passage en QA validée.
+## Dette documentaire
+- Seuils LUFS/dBTP et grille QA détaillée non formalisés dans /docs : interdiction de les inventer ; attendre la formalisation IQv1 et registres qualité.

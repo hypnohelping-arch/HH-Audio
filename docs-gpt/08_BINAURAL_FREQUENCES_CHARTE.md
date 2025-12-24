@@ -1,13 +1,8 @@
-# Binaural — Fréquences charte
-Rôle : encadrer la sélection et l'usage des fréquences binaurales.
+# Binaural — Fréquences — Charte (miroir canon /docs/audio/PLAN_REFERENCE_USINE_AUDIO_PREMIUM+++.md)
 
-## Règles clés
-- Utiliser uniquement des paires testées et documentées dans QA audio.
-- Limiter l'exposition à des durées validées pour éviter la fatigue auditive.
-- Indiquer clairement la fréquence cible et l'écart binaural par segment.
-- Synchroniser les évolutions de phase avec les transitions de script.
-- Interrompre immédiatement en cas de retour utilisateur négatif documenté.
-- Aucun ajout musical, binaural ou de spatialité (voix ou musique) n’est autorisé tant que la voix n’est pas marquée LOCKED.
+## Règles canoniques
+- Aucune composante binaurale ne doit détourner l’attention de la voix ni précéder VOICE_LOCKED.
+- Sound design binaural uniquement après VOICE_LOCKED et SEGMENTATION_LOCKED, sous validation humaine.
 
-## TODO
-- Ajouter les tables de fréquences validées dès publication.
+## Dette documentaire
+Spécifications de fréquences et profils binauraux manquantes dans /docs ; toute utilisation doit rester bloquée tant que le canon n’est pas formalisé.
