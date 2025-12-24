@@ -24,6 +24,7 @@
    - **Référence** : AUDIO-REF-01 = script clean de référence Premium+++ (respect CORE, niveau attendu, benchmark QA/GPT).
 5. **Étape 4 — Script studio** : ajout des intentions vocales et respirations.
    - **Référence obligatoire** : Charte ÉTAPE 4 — SCRIPT STUDIO (transformation non destructive du SCRIPT CLEAN, sens/structure intouchables).
+   - **Statut process** : ÉTAPE 4 déclarée **DONE / opérationnelle** (process Premium+++) avec statut **SCRIPT_STUDIO_VALIDÉ** requis avant VOICE_DRAFT / VOICE_LOCKED ; rappel charte Étape 4.
    - **Production** : annotations rares, visuelles, compatibles multi-voix, respectant la densité (1 annotation pour 2 à 4 phrases en moyenne).
    - **Garde-fous** : aucune réécriture, aucune technique audio ; tout changement de sens renvoie à une nouvelle version du SCRIPT CLEAN.
    - **Validation** : statut SCRIPT_STUDIO_VALIDÉ requis avant VOICE_DRAFT et VOICE_LOCKED (pipeline bloqué sinon).

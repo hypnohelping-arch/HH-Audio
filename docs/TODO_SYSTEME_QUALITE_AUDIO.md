@@ -148,6 +148,26 @@ NOTES:
 DONE_CRITERIA:
 - Prompt d’assistance validé et capable de générer le PROMPT CODEX de documentation GPT.
 
+## TODO — ÉTAPE 4 (SCRIPT STUDIO) — AMÉLIORATIONS NON BLOQUANTES
+
+ID: TODO-4.1
+STATUS: TODO
+PRIORITY: LOW
+GOAL: Introduire une légère variété lexicale dans les labels d’annotations (ex. « présence calme » / « présence simple ») tout en restant non technique.
+NOTES:
+- Piste d’optimisation usage, la charte reste figée (non bloquant).
+DONE_CRITERIA:
+- Variété lexicale validée sans alourdir la lecture.
+
+ID: TODO-4.2
+STATUS: TODO
+PRIORITY: LOW
+GOAL: Évaluer si certaines sections peuvent être validées sans annotation lorsque la lecture est naturellement fluide.
+NOTES:
+- Objectif : légèreté maximale sans remise en cause de la charte (non bloquant).
+DONE_CRITERIA:
+- Règle d’exemption d’annotations documentée ou rejetée après évaluation.
+
 ## Ordre d’exécution recommandé
 
 1. TODO-1
