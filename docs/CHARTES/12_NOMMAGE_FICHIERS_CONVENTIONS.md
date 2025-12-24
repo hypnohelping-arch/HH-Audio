@@ -1,10 +1,11 @@
 # Nommage fichiers — Conventions
 
 ---
-Statut: MIROIR (lecture GPT)
-Source canon: /docs/CHARTES/12_NOMMAGE_FICHIERS_CONVENTIONS.md
-Version: alignée sur canon V1
+Statut: CANON (opérationnel)
+Version: V1 (CORE figé)
 Date: 2025-12-24
+Source: publication depuis docs-gpt (miroir)
+Gouvernance: voir docs-gpt/14_DECISIONS_TODO_LOG.md
 ---
 
 
