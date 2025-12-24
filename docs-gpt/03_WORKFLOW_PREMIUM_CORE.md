@@ -81,7 +81,7 @@ Exemple (indicatif, à adapter au besoin sans complexifier) :
 - `voix/` : source voix (jamais écrasée)
 - `son/` : mixes et itérations (v1, v2, …), notes son
 - `notes/` : journal d’évolution daté
-- `README.md` : état actuel (1 page max)
+- `README.md` : état actuel (1 page max) incluant le `STATUT_VOIX_GLOBAL` dérivé (jamais saisi manuellement)
 
 ### Deux parcours de production selon l’état de la voix
 
@@ -93,6 +93,7 @@ Règles :
 - Toute dérogation au gating voix → son doit être consignée dans `docs-gpt/14_DECISIONS_TODO_LOG.md`.
 - L’optimisation sonore reste prudente : la voix demeure la référence et ne doit pas être masquée.
 - Le score cible et le plafond réaliste doivent être définis avant itérations.
+- En mode LABO, documenter `LOCKED_BY_DECISION : OUI | NON` avec référence explicite dans `docs-gpt/14_DECISIONS_TODO_LOG.md`.
 
 #### PARCOURS B — CREATION_FROM_SCRATCH (co-création native)
 Usage : production Premium+++ native.
@@ -109,10 +110,18 @@ Pour tout audio en mode LABO (et recommandé au-delà), documenter dans le `READ
 - `INTENTION_DE_TEST :` (obligatoire en LABO) ce que l’on cherche à apprendre/mesurer
 - `CRITERE_D_ARRET :` (obligatoire en LABO) seuil de fin d’itération (ex. score cible atteint ou gain marginal faible)
 - `GAIN_ESTIME :` (recommandé) estimation simple avant / après (ex. voix seule vs après design sonore)
+- `VOIX_GELEE :` TEMPORAIRE (optionnel, non statutaire) si une gelée de sécurité est décidée pour bloquer toute modification voix
 
 Note :
 - Ces champs améliorent la gouvernance et évitent les tests implicites.
 - Ils n’ajoutent pas de complexité technique ; ils rendent l’expérimentation traçable et exploitable.
+
+### QA voix — confort et souveraineté humaine
+- Un indicateur optionnel `CONFORT_VOCAL : OK | À_SURVEILLER` peut être renseigné lors du QA voix ; il reste non bloquant et n’impacte pas les statuts segments.
+- Un segment peut être refusé par l’humain lors du QA voix si le confort d’écoute ou la charge émotionnelle est jugée excessive, même en conformité technique ; il reste ou repasse en RECORDED ou DRAFT avec justification courte.
+
+### Rappel sur l’ajout de son
+- Tant que le `STATUT_VOIX_GLOBAL` n’est pas `LOCKED`, aucun ajout de musique, binaural ou spatialité n’est autorisé.
 
 ### Capitalisation terrain (TODO)
 - Après 10 à 15 audios produits via HH-AutoMix Engine v1, compiler les cas où le mix auto passe en Go direct et ceux nécessitant un ajustement humain.

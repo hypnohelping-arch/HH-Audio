@@ -16,3 +16,36 @@ Rôle : définir les statuts de progression et de décision pour chaque segment 
 | RECORDED | QA |
 | QA | LOCKED |
 | LOCKED | ARCHIVE |
+
+## Statut voix global (dérivé, jamais saisi)
+- Le **STATUT_VOIX_GLOBAL** est un statut dérivé calculé automatiquement à partir des statuts des segments.
+- Il n’est pas un statut opérationnel supplémentaire et ne peut pas être saisi manuellement.
+- Règles de calcul :
+  - `INCOMPLET` : au moins un segment est différent de QA / LOCKED.
+  - `QA_OK` : tous les segments sont au moins en QA, avec au moins un segment non LOCKED.
+  - `LOCKED` : tous les segments sont LOCKED.
+- Le calcul est effectué par Codex et le résultat est affiché dans le `README.md` du dossier audio.
+- Toute modification manuelle du STATUT_VOIX_GLOBAL est interdite.
+
+## Indicateur confort vocal (non bloquant)
+- Indicateur optionnel renseigné uniquement lors du QA voix : `CONFORT_VOCAL : OK | À_SURVEILLER`.
+- Jamais bloquant, ne modifie pas les statuts des segments et sert uniquement à la capitalisation terrain.
+
+## Droit explicite de refus humain
+- Un segment peut être refusé lors du QA voix, même s’il est techniquement conforme, si le confort d’écoute ou la charge émotionnelle est jugée excessive par l’humain.
+- Conséquence documentaire : le segment reste ou repasse en RECORDED ou DRAFT, avec une justification courte consignée.
+
+## LOCKED par décision (mode LABO uniquement)
+- Marqueur documentaire : `LOCKED_BY_DECISION : OUI | NON`.
+- Autorisé uniquement pour les audios en mode LABO et doit référencer une entrée explicite dans `docs-gpt/14_DECISIONS_TODO_LOG.md`.
+- Ce marqueur ne remplace pas les statuts des segments ; il documente une dérogation assumée.
+
+## Gel vocal temporaire (non statutaire)
+- Marqueur opérationnel : `VOIX_GELEE : TEMPORAIRE`.
+- Interdit toute modification de la voix tant qu’actif, sans impliquer ARCHIVE ni LOCKED définitif.
+- Peut être levé uniquement par décision humaine explicite et reste non bloquant pour la gouvernance.
+
+## Rappels officiels
+- Le statut voix officiel repose exclusivement sur les statuts segments (DRAFT / RECORDED / QA / LOCKED).
+- Le registre des audios peut référencer les statuts mais ne constitue jamais une preuve canonique.
+- Aucun ajout de musique, binaural ou spatialité n’est autorisé tant que `STATUT_VOIX_GLOBAL` n’est pas `LOCKED`.
