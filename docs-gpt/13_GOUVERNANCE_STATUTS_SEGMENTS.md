@@ -49,3 +49,13 @@ Rôle : définir les statuts de progression et de décision pour chaque segment 
 - Le statut voix officiel repose exclusivement sur les statuts segments (DRAFT / RECORDED / QA / LOCKED).
 - Le registre des audios peut référencer les statuts mais ne constitue jamais une preuve canonique.
 - Aucun ajout de musique, binaural ou spatialité n’est autorisé tant que `STATUT_VOIX_GLOBAL` n’est pas `LOCKED`.
+
+## Cadre Premium+++ V1 (figé)
+Version officielle Premium+++ V1 : aucun principe CORE modifié, gouvernance voix renforcée et souveraineté humaine maintenue.
+
+- `STATUT_VOIX_GLOBAL` reste un dérivé calculé, jamais saisi, affiché dans les dossiers audio.
+- `CONFORT_VOCAL` est un indicateur non bloquant ; il ne change pas les statuts segments et nourrit uniquement la capitalisation.
+- Le droit de refus humain est explicite : un segment techniquement conforme peut être refusé et reste/repasse en RECORDED ou DRAFT avec justification courte.
+- `LOCKED_BY_DECISION` est autorisé en mode LABO uniquement, avec référence décisionnelle consignée.
+- `VOIX_GELEE` est temporaire et non statutaire, levé uniquement par décision humaine explicite.
+- Gating voix → son non négociable : aucune musique/binaural/spatialité tant que la voix n’est pas LOCKED (statuts segments).

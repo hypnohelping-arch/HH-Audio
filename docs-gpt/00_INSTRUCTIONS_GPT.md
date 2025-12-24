@@ -7,7 +7,7 @@ Concevoir, structurer et valider les productions audio d'hypnose premium — jam
 Interventions limitées aux contenus et structures dédiés à l'hypnose audio.
 
 ## Stratégie documentaire (Premium+++)
-- GitHub (/docs) est le canon opérationnel.
+- GitHub (/docs) est le canon opérationnel et la source de vérité Premium+++ V1.
 - docs-gpt est un miroir de lecture pour GPT, sans création de nouveaux fichiers.
 - Les décisions documentaires sont consignées dans docs-gpt/14_DECISIONS_TODO_LOG.md.
 
@@ -15,6 +15,8 @@ Interventions limitées aux contenus et structures dédiés à l'hypnose audio.
 1) GitHub (/docs) : source de vérité canonique.
 2) docs-gpt : miroir de lecture GPT.
 3) docs-gpt/15_REGISTRE_AUDIOS_PUBLIES.md : référence de lecture catalogue pour GPT ; tout écart avec GitHub est une dette documentaire à tracer.
+
+**Figé Premium+++ V1** : workflow complet, gouvernance voix renforcée, HH-AutoMix Engine v1 déterministe et validation humaine post-mix (checklist 60 s) sont considérés opérationnels et validés ; toute évolution future passe par décision consignée + TODO.
 
 ## Référence catalogue (lecture GPT)
 - Le fichier docs-gpt/15_REGISTRE_AUDIOS_PUBLIES.md est la référence de lecture GPT du catalogue audio.

@@ -11,6 +11,14 @@ Rôle : décrire la chaîne de production standardisée pour les séances premiu
 - Les exceptions doivent être journalisées dans 14_DECISIONS_TODO_LOG.md.
 - Livrer uniquement après double contrôle croisé (voix + QA audio).
 
+## Premium+++ V1 — état figé
+Version officielle et opérationnelle de l’usine audio Premium+++ (V1), sans modification des principes CORE et sans suppression d’historique.
+
+- **Workflow bout-en-bout figé** : cadrage → script fractionné → QA / LOCKED voix → gating voix → son → sélection profil HH-AutoMix → déclenchement conditionnel du mix → QA technique + écoute humaine 60 s → gouvernance & publication.
+- **HH-AutoMix Engine v1 déterministe** : aucun geste créatif ; exécution strictement conditionnelle à `AUTOMIX_AUTORISE` et au pré-check bloquant ; aucune ré-exécution silencieuse.
+- **Statut voix global dérivé** : jamais saisi, toujours calculé ; la voix reste souveraine (gating voix → son non négociable) avec droit de refus humain explicite et indicateur `CONFORT_VOCAL` non bloquant.
+- **Validation post-mix** : checklist d’écoute humaine ≤ 60 secondes ; décision humaine souveraine (Go / ajustement minimal / No-Go) avant publication.
+
 ## Automatisation Premium+++ (clarification workflow)
 Objectif : expliciter ce qui est automatisable, semi-automatisable et humain obligatoire, sans changer les principes CORE.
 
@@ -46,10 +54,14 @@ Règles d’exécution :
 
 Rappel : le mix automatique n’est jamais déclenché par défaut. Toute itération requiert une autorisation humaine explicite et unique.
 
+**Traçabilité d’exécution** : chaque déclenchement journalise la date, le profil, le mode musical, la version moteur, le résultat, et référence l’autorisation humaine qui a permis l’exécution.
+
 ### Script voix
 - Automatisable : génération de script V0.
 - Semi-automatisable : préparation du script fractionné V1 (segments enregistrables), sous validation humaine.
 - Humain obligatoire : validation vocale humaine avant toute suite.
+
+**Voix (QA / LOCKED)** : la progression DRAFT → RECORDED → QA → LOCKED suit la gouvernance Premium+++ ; `STATUT_VOIX_GLOBAL` est dérivé, `CONFORT_VOCAL` est optionnel et non bloquant, et une décision humaine peut refuser un segment même conforme techniquement.
 
 ### Musique
 - Automatisable : génération musicale.
@@ -149,10 +161,14 @@ Note :
 - Après 10 à 15 audios produits via HH-AutoMix Engine v1, compiler les cas où le mix auto passe en Go direct et ceux nécessitant un ajustement humain.
 - Objectif : proposer des itérations v1.1 / v1.2 fondées sur les données réelles.
 
-### Audios personnels / signature — décision stratégique
+### Audios personnels / signature — décision stratégique (TODO)
 - Certains audios existants constituent une base personnelle / signature.
 - Ils ne sont pas encore analysés selon le workflow Premium+++ et sont exclus du périmètre usine actuel.
 - Leur analyse et amélioration sont prévues ultérieurement, une fois l’usine stabilisée et productive (TODO stratégique, sans lancement immédiat).
 
 ## TODO
 - Ajouter les diagrammes détaillés du flux lorsque prêts.
+- **Améliorations non critiques (à ne pas implémenter avant retours terrain, non requises pour Premium+++ V1)** :
+  - Analyse et amélioration des audios personnels / signature (hors périmètre usine V1, après stabilisation et production).
+  - Capitalisation terrain HH-AutoMix après 10–15 audios (cas Go direct vs ajustement, pistes v1.1 / v1.2).
+  - Raffinements ultimes optionnels : `AUDIO_FIGE` (point de non-retour), `INTENTION_SONORE` explicite, `DECISION_FINALE : AUCUNE MODIFICATION`.

@@ -14,6 +14,12 @@ Rôle : définir l'usage musical compatible avec l'hypnose premium sécurisée.
 - Semi-automatisable : ajustements techniques (niveau, fondus, synchronisation), sous validation humaine.
 - Humain obligatoire : sélection des pistes et validation QA avant mix final.
 
+## Premium+++ V1 — alignement musique
+- `STATUT_VOIX_GLOBAL = LOCKED` est un prérequis absolu avant toute fusion voix/musique ou spatialité.
+- HH-AutoMix Engine v1 est déterministe et non créatif ; le mix reste un droit conditionnel, jamais une initiative automatique.
+- `VOIX_SEULE_INTENTIONNELLE` est reconnue comme mode musical valide lorsque choisi explicitement.
+- L’autorisation humaine `AUTOMIX_AUTORISE` est nécessaire pour chaque itération et reset immédiatement après exécution (pas de ré-exécution silencieuse).
+
 ### Déclenchement HH-AutoMix Engine v1 — volet musique
 - Le mix automatique n’est jamais déclenché par défaut et n’initie aucune sélection musicale intelligente.
 - `STATUT_VOIX_GLOBAL` doit être `LOCKED` avant toute fusion voix/musique.
@@ -33,3 +39,4 @@ Rappel : si aucun profil ne correspond à 100 % à l’intention/catégorie/cont
 
 ## TODO
 - Ajouter les profils sonores recommandés et interdits.
+- Noter que les raffinements ultimes (`AUDIO_FIGE`, `INTENTION_SONORE`, `DECISION_FINALE : AUCUNE MODIFICATION`) sont optionnels et ne doivent pas être implémentés avant retours terrain (non requis pour Premium+++ V1).
