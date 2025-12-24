@@ -28,8 +28,16 @@
    - **Production** : annotations rares, visuelles, compatibles multi-voix, respectant la densité (1 annotation pour 2 à 4 phrases en moyenne).
    - **Garde-fous** : aucune réécriture, aucune technique audio ; tout changement de sens renvoie à une nouvelle version du SCRIPT CLEAN.
    - **Validation** : statut SCRIPT_STUDIO_VALIDÉ requis avant VOICE_DRAFT et VOICE_LOCKED (pipeline bloqué sinon).
-6. **Étape 5 — VOICE_DRAFT** : enregistrement ou import voix V0.
+6. **Étape 5 — VOICE_DRAFT** : enregistrement ou import voix V0 (voix humaine seule, alignée sur SCRIPT_STUDIO_VALIDÉ).
+   - **Statut** : VALIDÉE / FROZEN (Premium+++), voir charte ÉTAPE 5 — VOICE_DRAFT.
+   - **Entrées requises** : SCRIPT_STUDIO_VALIDÉ obtenu ; autorisation explicite d’exécuter l’étape dans le pipeline Premium+++.
+   - **Mode opératoire** : voix capturée ou importée sans traitement ni ajout sonore ; respect intégral du SCRIPT STUDIO (annotations, respirations, intentions).
+   - **Écoute** : **écoute partielle structurée** autorisée pour détecter les défauts flagrants ; ne constitue pas une validation finale.
+   - **Garde-fous** : aucune musique/binaural/spatialité/sound design/mixage/segmentation finale avant VOICE_LOCKED ; interdiction de publier ou diffuser.
+   - **Gating** : VOICE_LOCKED inaccessible sans VOICE_DRAFT conforme.
 7. **Étape 6 — VOICE_LOCKED** : validation voix verrouillée.
+   - **Principe** : **écoute humaine complète obligatoire**, engageant la responsabilité éditoriale.
+   - **Charte** : charte dédiée à venir ; dépend de la conformité VOICE_DRAFT (ÉTAPE 5 validée).
 8. **Étape 7 — SEGMENTATION_LOCKED** : découpage final figé.
 9. **Étape 8 — SOUND_DESIGN_ALLOWED** : autorisation sound design (pas avant VOICE_LOCKED).
 10. **Étape 9 — MIX_ITERATING** : itérations de mixage contrôlées.
