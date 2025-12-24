@@ -13,6 +13,15 @@ Rôle : fournir la liste de contrôle minimale pour valider un livrable audio.
 - Semi-automatisable : vérification de correspondance balises script ↔ timeline audio, sous validation humaine.
 - Humain obligatoire : écoute humaine obligatoire avant validation QA finale.
 
+## Checklist d’écoute humaine post-mix (≤ 60 s)
+- La voix est-elle confortable et naturelle partout ?
+- La musique attire-t-elle l’attention à un moment ?
+- Y a-t-il un masquage voix / musique ?
+- Les silences sont-ils respectés ?
+- Ressenti global : « j’oublie le son et j’écoute la voix ».
+
+Si toutes les réponses sont positives : publication possible. Sinon : ajustement humain minimal avant validation.
+
 ## Seuils QA chiffrés (référence interne)
 **Voix seule**
 - Loudness intégré : –19 LUFS

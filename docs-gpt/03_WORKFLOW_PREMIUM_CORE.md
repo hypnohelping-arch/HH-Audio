@@ -14,6 +14,16 @@ Rôle : décrire la chaîne de production standardisée pour les séances premiu
 ## Automatisation Premium+++ (clarification workflow)
 Objectif : expliciter ce qui est automatisable, semi-automatisable et humain obligatoire, sans changer les principes CORE.
 
+### Profils HH-AutoMix (V1)
+Profils déterministes, non créatifs, compatibles HH-AutoMix Engine v1.
+
+- **HH-AutoMix Standard** — motivation, concentration, mémoire, confiance en soi, développement personnel, créativité, arrêter de fumer (par défaut).
+- **HH-AutoMix Apaisement** — stress, anxiété, douleur, relaxation profonde, méditation, relaxation & éveil.
+- **HH-AutoMix Sommeil / Nuit** — sommeil, endormissement, relaxation nocturne.
+- **HH-AutoMix Immersion Mémoire** — intuition, revivre un souvenir, éveil des sens (si intention immersive), visualisation narrative douce.
+
+Règle obligatoire : si aucun profil existant ne couvre à 100 % l’intention, la catégorie et les contraintes du projet, la création d’un nouveau profil doit être demandée dès la **PHASE DE CADRAGE**, avant toute génération musicale ou mix. La décision de créer le nouveau profil reste humaine.
+
 ### Script voix
 - Automatisable : génération de script V0.
 - Semi-automatisable : préparation du script fractionné V1 (segments enregistrables), sous validation humaine.
@@ -33,6 +43,23 @@ Objectif : expliciter ce qui est automatisable, semi-automatisable et humain obl
 - Automatisable : QA chiffrée (LUFS / dBTP).
 - Semi-automatisable : vérification de correspondance balises script ↔ timeline audio.
 - Humain obligatoire : écoute humaine obligatoire.
+
+#### Checklist d’écoute humaine post-mix (≤ 60 s)
+- La voix est-elle confortable et naturelle partout ?
+- La musique attire-t-elle l’attention à un moment ?
+- Y a-t-il un masquage voix / musique ?
+- Les silences sont-ils respectés ?
+- Ressenti global : « j’oublie le son et j’écoute la voix ».
+
+Si toutes les réponses sont positives : publication possible. Sinon : ajustement humain minimal avant livraison.
+
+### Assistant de pré-alertes vocales
+Objectif : signaler les risques sans correction automatique ni blocage de production.
+
+- Détection de segments longs.
+- Détection de densité verbale élevée.
+- Détection de débit rapide.
+- Détection de respiration insuffisante.
 
 ### Gouvernance
 - Automatisable : consignation des versions datées et des hash en registre ou log QA.
@@ -86,6 +113,15 @@ Pour tout audio en mode LABO (et recommandé au-delà), documenter dans le `READ
 Note :
 - Ces champs améliorent la gouvernance et évitent les tests implicites.
 - Ils n’ajoutent pas de complexité technique ; ils rendent l’expérimentation traçable et exploitable.
+
+### Capitalisation terrain (TODO)
+- Après 10 à 15 audios produits via HH-AutoMix Engine v1, compiler les cas où le mix auto passe en Go direct et ceux nécessitant un ajustement humain.
+- Objectif : proposer des itérations v1.1 / v1.2 fondées sur les données réelles.
+
+### Audios personnels / signature — décision stratégique
+- Certains audios existants constituent une base personnelle / signature.
+- Ils ne sont pas encore analysés selon le workflow Premium+++ et sont exclus du périmètre usine actuel.
+- Leur analyse et amélioration sont prévues ultérieurement, une fois l’usine stabilisée et productive (TODO stratégique, sans lancement immédiat).
 
 ## TODO
 - Ajouter les diagrammes détaillés du flux lorsque prêts.

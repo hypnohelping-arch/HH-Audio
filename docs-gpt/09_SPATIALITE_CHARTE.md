@@ -14,5 +14,10 @@ Rôle : définir le placement sonore et la spatialisation compatibles avec l'hyp
 - Semi-automatisable : application des limites de mouvement et de réverbération, sous validation humaine.
 - Humain obligatoire : validation humaine du placement final.
 
+## Repères HH-AutoMix
+- Voix maintenue au centre comme ancrage principal, y compris pour les profils HH-AutoMix v1.
+- Effets d’immersion contrôlés uniquement lorsque l’intention du profil le prévoit (ex. Immersion Mémoire), sans rotation rapide ni déstabilisation.
+- La spatialité reste subordonnée à la clarté vocale ; tout déplacement doit préserver l’intelligibilité et le confort.
+
 ## TODO
 - Ajouter les presets recommandés pour les principaux DAW.
