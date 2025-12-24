@@ -9,6 +9,7 @@ Rôle : centraliser les décisions, dérogations et tâches ouvertes du corpus a
 - Conserver l'historique ; ne pas supprimer les entrées closes.
 
 ## Entrées
+- Date : 2025-12-24 | Décision : Validation et figeage de la charte ÉTAPE 5 — VOICE_DRAFT (Premium+++) ; ÉTAPE 5 définie comme étape d’écoute critique autorisant une écoute partielle structurée, sans valeur de validation finale | Impact : sécurisation de la qualité vocale ; séparation claire VOICE_DRAFT / VOICE_LOCKED ; préparation explicite de l’ÉTAPE 6 | Statut : VALIDÉE
 - Date : 2025-12-24 | Décision : Accorder le statut SCRIPT_STUDIO_VALIDÉ (référence de simulation) et déclarer l’ÉTAPE 4 — SCRIPT STUDIO comme DONE / opérationnelle dans le workflow Premium+++ | Impact : ÉTAPE 4 pleinement spécifiée, testée et utilisable en production ; SCRIPT_STUDIO_VALIDÉ requis avant VOICE_DRAFT / VOICE_LOCKED ; délégation GPT possible via PACK + PROMPT ; aucun livrable audio publié | Portée : process uniquement (simulation de validation) | Statut : VALIDÉE
 - Date : 2025-12-20 | Décision : Taxonomie statuts segments (DRAFT, RECORDED, QA, LOCKED, ARCHIVE) | Impact : alignement des statuts et transitions | Fichiers concernés : docs-gpt/13_GOUVERNANCE_STATUTS_SEGMENTS.md, docs-gpt/04_FORMAT_SCRIPT_FRACTIONNE_V1.md | Statut : VALIDÉ
 - Date : 2025-12-20 | Décision : Suppression du statut obsolète | Impact : retrait du statut des conventions | Fichiers concernés : docs-gpt/12_NOMMAGE_FICHIERS_CONVENTIONS.md | Statut : VALIDÉ

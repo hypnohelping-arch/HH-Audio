@@ -168,6 +168,17 @@ NOTES:
 DONE_CRITERIA:
 - Règle d’exemption d’annotations documentée ou rejetée après évaluation.
 
+## TODO — ÉTAPE 6 (VOICE_LOCKED)
+
+TODO — ÉTAPE 6 (VOICE_LOCKED)
+- Définir la charte ÉTAPE 6 — VOICE_LOCKED :
+  - écoute intégrale obligatoire,
+  - critères de verrouillage définitif,
+  - lien QA et publication.
+- Priorité : haute
+- Dépendance : ÉTAPE 5 validée (OK)
+- Statut : TODO
+
 ## Ordre d’exécution recommandé
 
 1. TODO-1
